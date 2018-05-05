@@ -17,7 +17,16 @@ def get_user_ids(path1, path2, file_):
     return ids1 + ids2
 
 def get_users(user_dict, ids):
+    # j = 0
+    # for i in ids:
+    #     if i in user_dict:
+    #         print('in user_dict')
+    #         print(i)
+    #         j += 1
+    # print('dict has {} ids'.format(j))
+
     new_dict = dict((i, user_dict[i]) for i in ids if i in user_dict)
+    # print(new_dict)
     return new_dict
 
 if __name__ == '__main__':
@@ -49,12 +58,21 @@ if __name__ == '__main__':
     print('Post {}'.format(n_posts))
 
     train_ids = get_user_ids(path_control, path_sw, 'TRAIN.txt') 
+    print(train_ids[0])
     test_ids = get_user_ids(path_control, path_sw, 'TEST.txt') 
+    print(test_ids[0])
     dev_ids = get_user_ids(path_control, path_sw, 'DEV.txt') 
+    print(dev_ids[0])
 
+
+    print('train')
     train_users = get_users(user_dict, train_ids)
+    print('test')
     test_users = get_users(user_dict, test_ids)
+    print('dev')
     dev_users = get_users(user_dict, dev_ids)
+
+    # print(test_users)
 
     with open(output_path+'train_users', 'wb') as f:
         pickle.dump(train_users, f)
