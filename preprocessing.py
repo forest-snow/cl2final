@@ -1,66 +1,111 @@
-import pickle
-from preprocessing import User, Post
-from nltk.corpus import stopwords
+import argparse
+import csv
+import os
+import re
+import _pickle as pickle
 
+from nltk.stem import WordNetLemmatizer
+from nltk import pos_tag, word_tokenize
 
-stopWords = set(stopwords.words('english'))
+wnl = WordNetLemmatizer()
+def lemmatize_pos(sent):
+	tokens = []
+	for word, tag in pos_tag(word_tokenize(sent)):
+		wntag = tag[0].lower()
 
-def read_ids(file_):
-    with open(file_, 'r') as f:
-        data = f.read().splitlines()
-        ids = [int(i) for i in data]
-    return ids
+		wntag = wntag if wntag in ['a', 'r', 'n', 'v'] else None
+		if not wntag:
+			lemma = word
+		else:
+			lemma = wnl.lemmatize(word, wntag)
+		tokens.append(lemma)
+	return tokens
 
-def get_user_ids(path1, path2, file_):
-    ids1 = read_ids(path1+file_)
-    ids2 = read_ids(path2+file_)
-    return ids1 + ids2
+def preprocess(text):
+	no_dash_text = re.sub(r'-', ' ', text)
+	tokens = no_dash_text.split()
+	lowercase_tokens = [token.lower() for token in tokens]
+	english_tokens = [re.sub(r'[^a-z]', '', token) for token in lowercase_tokens]
+	sent = ' '.join(english_tokens) 
+	lemma_tokens = lemmatize_pos(sent)
+	long_tokens = [token for token in lemma_tokens if len(token) >= 3]
+	return ' '.join(long_tokens)
 
-def get_users(user_dict, ids):
-    new_dict = dict((i, user_dict[i]) for i in ids if i in user_dict)
-    return new_dict
+class Post:
+	def __init__(self, postid, text, timestamp):
+		self.postid = postid
+		self.text = text
+		self.timestamp = timestamp
+
+class User:
+	def __init__(self, userid, label):
+		self.userid = userid
+		self.label = label
+		self.posts = []
+
+	def add_post(self, post):
+		self.posts.append(post)
+
+def extract_files(path, pattern):
+	file_list = []
+	for root, dirs, files in os.walk(path):
+		for file in files:
+			if file.endswith(pattern):
+				file_list.append(os.path.join(root, file))
+
+	return file_list
+
+def load_posts(user_dict, path, pattern):
+	cnt = 0
+	for file in extract_files(path, pattern):
+		with open(file, 'r') as f:
+			line = f.readline()
+			while line:
+				entries = line.strip().split('\t')
+				if len(entries) <= 3:
+					continue
+
+				postid = entries[0].strip()
+				userid = int(entries[1])
+				timestamp = int(entries[2])
+				if len(entries) > 5:
+					text = ' '.join([entries[3], entries[4], entries[5]])
+				else:
+					text = ' '.join([entries[3], entries[4]])
+
+				text = preprocess(text)
+				post = Post(postid, text, timestamp)
+				print(text)
+
+				if userid in user_dict:
+					user_dict[userid].add_post(post)
+				else:
+					cnt += 1
+
+				line = f.readline()
+	print(cnt)
+
+def load_users(path, pattern):
+	user_dict = dict()
+	for file in extract_files(path, pattern):
+		with open(file, 'r') as f:
+			reader = csv.DictReader(f)
+			for row in reader:
+				userid = int(row['user_id'])
+				user_dict[userid] = User(userid, int(row['label']))
+	return user_dict
 
 if __name__ == '__main__':
-    file_ = "/Users/myuan/Box Sync/LING_773_Final_Project/umd_reddit_suicidewatch_dataset/user_info"
-    path_control = '/Users/myuan/Box Sync/LING_773_Final_Project/umd_reddit_suicidewatch_dataset/reddit_posts/controls/split_80-10-10/'
-    path_sw = '/Users/myuan/Box Sync/LING_773_Final_Project/umd_reddit_suicidewatch_dataset/reddit_posts/sw_users/split_80-10-10/'
-    output_path = '/Users/myuan/Box Sync/LING_773_Final_Project/umd_reddit_suicidewatch_dataset/'
+	argparser = argparse.ArgumentParser()
+	argparser.add_argument('--post_dir', type=str, required=True,
+							help="Directory of posts.")
+	argparser.add_argument('--user_dir', type=str, required=True,
+							help="Directory of user annotations.")
+	argparser.add_argument('--output_file', type=str, required=True,
+							help="Path to the output file.")
 
-
-    pickle_obj = open(file_, 'rb')
-    user_dict = pickle.load(pickle_obj)
-    docs = []
-    n_posts = 0
-    for n_users, (_,user) in enumerate(user_dict.items()):
-        if n_users % 1000 == 0:
-            print('User {}'.format(n_users))
-
-        for post in user.posts:
-            if n_posts % 1000 == 0:
-                print('Post {}'.format(n_posts))
-            text = post.text
-            tokens = text.split()
-            new_tokens = [token for token in tokens if token not in stopWords]
-            new_text = ' '.join(new_tokens)
-            post.text = new_text
-            n_posts += 1
-
-    print('User {}'.format(n_users))
-    print('Post {}'.format(n_posts))
-
-    train_ids = get_user_ids(path_control, path_sw, 'TRAIN.txt') 
-    test_ids = get_user_ids(path_control, path_sw, 'TEST.txt') 
-    dev_ids = get_user_ids(path_control, path_sw, 'DEV.txt') 
-
-    train_users = get_users(user_dict, train_ids)
-    test_users = get_users(user_dict, test_ids)
-    dev_users = get_users(user_dict, dev_ids)
-
-    with open(output_path+'train_users', 'wb') as f:
-        pickle.dump(train_users, f)
-
-    with open(output_path+'dev_users', 'wb') as f:
-        pickle.dump(dev_users, f)
-
-    with open(output_path+'test_users', 'wb') as f:
-        pickle.dump(test_users, f)
+	args = argparser.parse_args()
+	user_dict = load_users(args.user_dir, 'csv')
+	load_posts(user_dict, args.post_dir, 'posts')
+	with open(args.output_file, 'wb') as f:
+		pickle.dump(user_dict, f)
