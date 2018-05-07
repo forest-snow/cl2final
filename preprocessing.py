@@ -4,10 +4,15 @@ import os
 import re
 import _pickle as pickle
 
-from nltk.stem import WordNetLemmatizer
 from nltk import pos_tag, word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+
+from user import *
 
 wnl = WordNetLemmatizer()
+stopWords = set(stopwords.words('english'))
+
 def lemmatize_pos(sent):
 	tokens = []
 	for word, tag in pos_tag(word_tokenize(sent)):
@@ -28,23 +33,8 @@ def preprocess(text):
 	english_tokens = [re.sub(r'[^a-z]', '', token) for token in lowercase_tokens]
 	sent = ' '.join(english_tokens) 
 	lemma_tokens = lemmatize_pos(sent)
-	long_tokens = [token for token in lemma_tokens if len(token) >= 3]
+	long_tokens = [token for token in lemma_tokens if len(token) >= 3 and token not in stopWords]
 	return ' '.join(long_tokens)
-
-class Post:
-	def __init__(self, postid, text, timestamp):
-		self.postid = postid
-		self.text = text
-		self.timestamp = timestamp
-
-class User:
-	def __init__(self, userid, label):
-		self.userid = userid
-		self.label = label
-		self.posts = []
-
-	def add_post(self, post):
-		self.posts.append(post)
 
 def extract_files(path, pattern):
 	file_list = []
@@ -55,17 +45,17 @@ def extract_files(path, pattern):
 
 	return file_list
 
-def load_posts(user_dict, path, pattern):
-	cnt = 0
+def load_posts(user_dict, path, pattern, in_control=False):
 	for file in extract_files(path, pattern):
 		with open(file, 'r') as f:
-			line = f.readline()
-			while line:
+			print(file)
+			for line in f.readlines():
 				entries = line.strip().split('\t')
-				if len(entries) <= 3:
+				if len(entries) < 5:
 					continue
 
 				postid = entries[0].strip()
+				subreddit = entries[3].strip()
 				userid = int(entries[1])
 				timestamp = int(entries[2])
 				if len(entries) > 5:
@@ -74,16 +64,15 @@ def load_posts(user_dict, path, pattern):
 					text = ' '.join([entries[3], entries[4]])
 
 				text = preprocess(text)
-				post = Post(postid, text, timestamp)
-				print(text)
+				post = Post(postid, subreddit, text, timestamp)
 
-				if userid in user_dict:
-					user_dict[userid].add_post(post)
-				else:
-					cnt += 1
+				if userid not in user_dict:
+					if in_control:
+						user_dict[userid] = User(userid, -1)
+					else:
+						user_dict[userid] = User(userid, -2)
 
-				line = f.readline()
-	print(cnt)
+				user_dict[userid].add_post(post)
 
 def load_users(path, pattern):
 	user_dict = dict()
@@ -106,6 +95,9 @@ if __name__ == '__main__':
 
 	args = argparser.parse_args()
 	user_dict = load_users(args.user_dir, 'csv')
-	load_posts(user_dict, args.post_dir, 'posts')
+	load_posts(user_dict, os.path.join(args.post_dir, 'sw_users'), 'posts', in_control=False)
+	load_posts(user_dict, os.path.join(args.post_dir, 'controls'), 'posts', in_control=True)
+	print(len(user_dict))
+
 	with open(args.output_file, 'wb') as f:
 		pickle.dump(user_dict, f)
