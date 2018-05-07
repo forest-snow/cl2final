@@ -1,6 +1,7 @@
 class Post:
-	def __init__(self, postid, text, timestamp):
+	def __init__(self, postid, subreddit, text, timestamp):
 		self.postid = postid
+		self.subreddit = subreddit
 		self.text = text
 		self.timestamp = timestamp
 

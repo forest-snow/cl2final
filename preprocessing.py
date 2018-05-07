@@ -48,13 +48,18 @@ def extract_files(path, pattern):
 def load_posts(user_dict, path, pattern, in_control=False):
 	for file in extract_files(path, pattern):
 		with open(file, 'r') as f:
+			cnt=0
 			line = f.readline()
 			while line:
+				cnt+=1
+				if cnt % 100 == 0:
+					print(cnt)
 				entries = line.strip().split('\t')
 				if len(entries) <= 3:
 					continue
 
 				postid = entries[0].strip()
+				subreddit = entries[3].strip()
 				userid = int(entries[1])
 				timestamp = int(entries[2])
 				if len(entries) > 5:
@@ -63,7 +68,7 @@ def load_posts(user_dict, path, pattern, in_control=False):
 					text = ' '.join([entries[3], entries[4]])
 
 				text = preprocess(text)
-				post = Post(postid, text, timestamp)
+				post = Post(postid, subreddit, text, timestamp)
 
 				if userid not in user_dict:
 					if in_control:
