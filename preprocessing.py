@@ -48,14 +48,10 @@ def extract_files(path, pattern):
 def load_posts(user_dict, path, pattern, in_control=False):
 	for file in extract_files(path, pattern):
 		with open(file, 'r') as f:
-			cnt=0
-			line = f.readline()
-			while line:
-				cnt+=1
-				if cnt % 100 == 0:
-					print(cnt)
+			print(file)
+			for line in f.readlines():
 				entries = line.strip().split('\t')
-				if len(entries) <= 3:
+				if len(entries) < 5:
 					continue
 
 				postid = entries[0].strip()
@@ -77,8 +73,6 @@ def load_posts(user_dict, path, pattern, in_control=False):
 						user_dict[userid] = User(userid, -2)
 
 				user_dict[userid].add_post(post)
-
-				line = f.readline()
 
 def load_users(path, pattern):
 	user_dict = dict()
