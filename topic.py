@@ -43,9 +43,9 @@ def get_collocations(docs):
 
 def create_bows(docs_tokens):
     dictionary = corpora.Dictionary(docs_tokens)
-    dictionary.filter_extremes(no_below=30, keep_n=5000, no_above=0.05)
+    dictionary.filter_extremes(no_below=30, keep_n=5000, no_above=0.04)
     bows = [dictionary.doc2bow(doc) for doc in docs_tokens]
-    # print(dictionary.token2id)
+    print('{} words'.format(len(dictionary.token2id)))
     return bows, dictionary
 
 def top_topic_words(lda, dictionary):
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     bows, dictionary = create_bows(docs_tokens)
 
     print('training topic model')
-    lda = models.LdaModel(bows, num_topics=50)
+    lda = models.LdaModel(bows, num_topics=100)
     print('finished training')
     topic_words = top_topic_words(lda, dictionary)
 
