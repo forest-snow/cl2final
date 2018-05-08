@@ -1,0 +1,23 @@
+Positive Group
+['girl', 'relationship', 'shes', 'date', 'night', 'mom', 'meet', 'move', 'girlfriend', 'woman']
+['run', 'open', 'road', 'water', 'hunter', 'gift', 'turn', 'light', 'fix', 'laptop']
+['song', 'reddit', 'music', 'picture', 'subreddit', 'thanks', 'favorite', 'thank', 'name', 'read']
+['bike', 'group', 'whats', 'food', 'delaware', 'smoke', 'film', 'dog', 'til', 'profile']
+['fuck', 'care', 'kill', 'person', 'hate', 'maybe', 'everyone', 'anymore', 'die', 'world']
+['walk', 'remember', 'room', 'eye', 'face', 'car', 'saw', 'man', 'head', 'house']
+['school', 'job', 'depression', 'college', 'class', 'money', 'hour', 'family', 'self', 'anxiety']
+['movie', 'watch', 'team', 'art', 'damage', 'buy', 'episode', 'level', 'guitar', 'pop']
+['build', 'video', 'power', 'case', 'card', 'hard', 'hair', 'drive', 'memory', 'cpu']
+['buy', 'pay', 'video', 'read', 'number', 'site', 'youre', 'online', 'account', 'order']
+
+Control Group
+['buy', 'best', 'price', 'trade', 'sell', 'sale', 'cheap', 'online', 'offer', 'money']
+['day', 'thing', 'back', 'guy', 'year', 'start', 'feel', 'tell', 'love', 'friend']
+['video', 'watch', 'movie', 'amp', 'key', 'song', 'music', 'show', 'episode', 'favorite']
+['post', 'question', 'please', 'also', 'run', 'way', 'start', 'problem', 'thanks', 'link']
+['black', 'girl', 'pokemon', 'shit', 'white', 'eye', 'wear', 'woman', 'blue', 'red']
+['car', 'jesus', 'comic', 'cover', 'water', 'rock', 'travel', 'city', 'light', 'dark']
+['year', 'christian', 'school', 'guide', 'spoiler', 'old', 'kill', 'high', 'job', 'student']
+['post', 'man', 'dog', 'law', 'paul', 'state', 'news', 'vote', 'country', 'reddit']
+['card', 'power', 'drive', 'build', 'amazon', 'cpu', 'case', 'part', 'hard', 'video']
+['team', 'god', 'player', 'damage', 'level', 'point', 'also', 'world', 'character', 'could']
