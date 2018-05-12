@@ -27,7 +27,7 @@ def slda_gibbs(corpus, labels, n_docs, n_vocab, n_topics, vocab):
 
 def slda_vb(corpus, labels, n_docs, n_vocab, n_topics, vocab):
     model = sLDA(corpus, labels, vocab, n_topics, alpha=1/N_TOPICS, sigma=1)
-    model.fit(max_iter=1)
+    model.fit(max_iter=10)
 
     print_topics(model.beta, vocab, model.eta)
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     check_empty(corpus)
 
     # # train model
-    # model = slda_vb(corpus, labels, n_docs, n_vocab, N_TOPICS, vocab)
+    model = slda_vb(corpus, labels, n_docs, n_vocab, N_TOPICS, vocab)
 
     # infer topics for rest of documents
     print('\n\n\n Inferring topics')
@@ -74,16 +74,16 @@ if __name__ == '__main__':
     corpus_all, labels_all, ids_all = extract.remove_empty_posts(corpus_all, labels_all, ids_all)
     print('{} docs'.format(len(corpus_all)))
 
-    # topic_vecs = model.heldoutEstep(max_iter=1, heldout=corpus_all)
-    # print('{} topic vectors'.format(topic_vecs.shape))
-    # print('finished inferring')
-    # post_topics = {}
-    # for postid, topic in zip(ids_all, topic_vecs):
-    #     post_topics[postid] = topic 
+    topic_vecs = model.heldoutEstep(max_iter=10, heldout=corpus_all)
+    print('{} topic vectors'.format(topic_vecs.shape))
+    print('finished inferring')
+    post_topics = {}
+    for postid, topic in zip(ids_all, topic_vecs):
+        post_topics[postid] = topic 
 
 
-    # output_file = '/Users/myuan/Desktop/post_topics'
-    # with open(output_file, 'wb') as f:
-    #     pickle.dump(post_topics, f)
+    output_file = '/Users/myuan/Desktop/post_topics'
+    with open(output_file, 'wb') as f:
+        pickle.dump(post_topics, f)
 
 
