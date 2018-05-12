@@ -5,6 +5,8 @@ from ptm.nltk_corpus import get_ids_cnt
 from ptm.utils import convert_cnt_to_list, get_top_words
 from ptm.slda_vb import sLDA
 
+import pickle
+
 
 N_TOPICS = 100
 
@@ -25,7 +27,7 @@ def slda_gibbs(corpus, labels, n_docs, n_vocab, n_topics, vocab):
 
 def slda_vb(corpus, labels, n_docs, n_vocab, n_topics, vocab):
     model = sLDA(corpus, labels, vocab, n_topics, alpha=1/N_TOPICS, sigma=1)
-    model.fit(max_iter=10)
+    model.fit(max_iter=1)
 
     print_topics(model.beta, vocab, model.eta)
 
@@ -43,8 +45,6 @@ if __name__ == '__main__':
 
 
 
-
-
     docs, labels, dictionary = extract.filter_words(docs, labels)
 
     print('\n\nloaded data')
@@ -52,12 +52,6 @@ if __name__ == '__main__':
     tokens = [doc.split() for doc in docs]
 
     vocab, word_ids, word_cnt = extract.get_counts(tokens, dictionary)
-    # print('vocab')
-    # print(vocab)
-    # print('word_ids')
-    # print(word_ids)
-    # print('word_cnt')
-    # print(word_cnt)
 
 
     print('{} words'.format(len(vocab)))
@@ -67,6 +61,29 @@ if __name__ == '__main__':
     n_vocab = vocab.size
     check_empty(corpus)
 
-    slda_vb(corpus, labels, n_docs, n_vocab, N_TOPICS, vocab)
+    # # train model
+    # model = slda_vb(corpus, labels, n_docs, n_vocab, N_TOPICS, vocab)
+
+    # infer topics for rest of documents
+    print('\n\n\n Inferring topics')
+    docs_all, labels_all, ids_all = extract.get_all_data()
+
+    tokens_all = [doc.split() for doc in docs_all]
+    _, word_ids_all, word_cnt_all = extract.get_counts(tokens_all, dictionary)
+    corpus_all = convert_cnt_to_list(word_ids_all, word_cnt_all)
+    corpus_all, labels_all, ids_all = extract.remove_empty_posts(corpus_all, labels_all, ids_all)
+    print('{} docs'.format(len(corpus_all)))
+
+    # topic_vecs = model.heldoutEstep(max_iter=1, heldout=corpus_all)
+    # print('{} topic vectors'.format(topic_vecs.shape))
+    # print('finished inferring')
+    # post_topics = {}
+    # for postid, topic in zip(ids_all, topic_vecs):
+    #     post_topics[postid] = topic 
+
+
+    # output_file = '/Users/myuan/Desktop/post_topics'
+    # with open(output_file, 'wb') as f:
+    #     pickle.dump(post_topics, f)
 
 

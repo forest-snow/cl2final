@@ -62,6 +62,7 @@ def collect_data(user_dict, avoid=subreddits):
     # avoid is list of subreddits to avoid
     docs = []
     labels = []
+    ids = []
     n_posts = 0
     for n_users, (_,user) in enumerate(user_dict.items()):
 
@@ -82,22 +83,23 @@ def collect_data(user_dict, avoid=subreddits):
                 n_posts += 1
 
                 labels.append(user.label)
+                ids.append(post.postid)
 
     print('User {}'.format(n_users))
     print('Post {}'.format(n_posts))
-    return docs, labels
+    return docs, labels, ids
 
 def get_exploratory_data():
     user_dict = load_user_dict()
     no_experts_dict = remove_experts(user_dict)
     crowd_user_dict = extract_labeled_users(no_experts_dict)
-    docs, labels = collect_data(crowd_user_dict)
+    docs, labels, _ = collect_data(crowd_user_dict)
     return docs, labels
 
 def filter_words(docs, labels):
     tokens_list = [doc.split() for doc in docs]
     dic = corpora.Dictionary(tokens_list)
-    dic.filter_extremes(no_below=30, keep_n=7000, no_above=0.03)
+    dic.filter_extremes(no_below=20, keep_n=8000, no_above=0.03)
 
     new_docs = []
     new_labels = []
@@ -134,6 +136,23 @@ def get_counts(docs, dictionary):
         doc_cnt.append(cnt)
 
     return np.array(voca_list), doc_ids, doc_cnt
+
+def get_all_data():
+    user_dict = load_user_dict()
+    # no_experts_dict = remove_experts(user_dict)
+    docs, labels, ids = collect_data(user_dict)
+    return docs, labels, ids
+    
+def remove_empty_posts(posts, labels, ids):
+    new_posts = []
+    new_labels = []
+    new_ids = []
+    for i, post in enumerate(posts): 
+        if len(post) != 0:
+            new_posts.append(post)
+            new_labels.append(labels[i])
+            new_ids.append(ids[i])
+    return new_posts, new_labels, new_ids
 
 
     
