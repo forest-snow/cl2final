@@ -1,5 +1,9 @@
 import pickle
 from user import User, Post
+from gensim import corpora 
+import numpy as np
+
+# call on get_exploratory_data() to get exploratory data
 
 
 # change paths
@@ -89,6 +93,47 @@ def get_exploratory_data():
     crowd_user_dict = extract_labeled_users(no_experts_dict)
     docs, labels = collect_data(crowd_user_dict)
     return docs, labels
+
+def filter_words(docs, labels):
+    tokens_list = [doc.split() for doc in docs]
+    dic = corpora.Dictionary(tokens_list)
+    dic.filter_extremes(no_below=30, keep_n=7000, no_above=0.03)
+
+    new_docs = []
+    new_labels = []
+    for i, tokens in enumerate(tokens_list):
+        doc = ''
+        for token in tokens:
+            if token in dic.token2id:
+                doc = doc + token + ' '
+
+        # remove empty posts
+        if doc != '':
+            new_docs.append(doc)
+            new_labels.append(labels[i])
+    return new_docs, new_labels, dic
+
+def get_counts(docs, dictionary):
+    vocab = list(dictionary.token2id)
+
+    voca_dic = dict()
+    voca_list = list()
+    for word in vocab:
+        voca_dic[word] = len(voca_dic)
+        voca_list.append(word)
+
+    doc_ids = list()
+    doc_cnt = list()
+
+    for i, doc in enumerate(docs):
+        words = set(doc)
+        ids = np.array([int(voca_dic[word]) for word in words if word in voca_dic])
+        cnt = np.array([int(doc.count(word)) for word in words if word in voca_dic])
+
+        doc_ids.append(ids)
+        doc_cnt.append(cnt)
+
+    return np.array(voca_list), doc_ids, doc_cnt
 
 
     
