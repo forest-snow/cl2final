@@ -13,6 +13,7 @@ from nltk.corpus import stopwords
 import time
 from collections import OrderedDict
 import math
+from nltk import ngrams
 import pickle
 #from user import User, Post
 from gensim import corpora, models
@@ -36,8 +37,8 @@ def remove_experts(user_dict):
     new_user_dict = dict((i, user_dict[i]) for i in user_ids if i not in ids)
     return new_user_dict
 
-def split_data(user_dict):
-    #exp_file = path + 'reddit_posts/sw_users/split_80-10-10/TRAIN.txt'
+#P is first data, Q is second data (given as annotated, unannotated or control)
+def split_data(user_dict,P,Q):
     split_file = path + 'reddit_annotation/crowd.csv'
     with open(split_file, 'r') as f:
         data = f.read().splitlines()
@@ -47,19 +48,12 @@ def split_data(user_dict):
         entries = row.split(',')
         user_id = int(entries[0])
         user_label = int(entries[1])
-        #annotated suicide watch data
-        if user_label > 0:
-            ids_1.append(user_id)
-        #other data to compare too (<0 for control, == 0 unannotated data)     
-        elif user_label < 0:
+        if user_label == P:
+            ids_1.append(user_id)    
+        elif user_label == Q:
             ids_2.append(user_id)
     user_ids = user_dict.keys()
-    
-    #with open(exp_file, 'r') as k:
-      #  want = k.read().split()
-        
-    #ids_1 = [uid for uid in ids_1 if uid in want]
-    #ids_2 = [uid for uid in ids_2 if uid in want]
+
     user_dict_new1 = dict((i, user_dict[i]) for i in user_ids if i in ids_1)
     user_dict_new2 = dict((i, user_dict[i]) for i in user_ids if i in ids_2)
     return user_dict_new1, user_dict_new2
@@ -138,6 +132,19 @@ def remove_stopwords(text):
             new_list.append(r)
     return new_list
 
+def make_grams(lst, n):
+    grams = list(ngrams(lst,n))
+    return grams
+
+def help_make_title(P_or_Q):
+    if P_or_Q == 1:
+        output = str('annotated')
+    elif P_or_Q == 0:
+        output = str('unannotated')
+    elif P_or_Q == -1:
+        output = str('control')
+    return output
+
 def get_collocations(docs):
     # get collocations for documents
     # returns documents but with bigrams (unigrams that are separated by _)
@@ -145,6 +152,7 @@ def get_collocations(docs):
     phrases = models.phrases.Phrases(tokens, min_count=100, threshold=10000.0, max_vocab_size=1000)
     bigrams = [sentence.split() for sentence in phrases[docs]]
     return bigrams
+
 
 if __name__ == '__main__':
     #argparser = argparse.ArgumentParser()
@@ -163,60 +171,60 @@ if __name__ == '__main__':
     crowd_user_dict = remove_experts(user_dict)
     print(len(crowd_user_dict))
     
-    sw_user_dict, con_user_dict = split_data(crowd_user_dict)
+    P=1
+    Q=0
+    P_user_dict, Q_user_dict = split_data(crowd_user_dict,P,Q)
     
-    docs_sw = collect_posts(sw_user_dict)
-    docs_con = collect_posts(con_user_dict)
+    docs_P = collect_posts(P_user_dict)
+    docs_Q = collect_posts(Q_user_dict)
     
-    col=0
+    new_docs_P = [item for sublist in docs_P for item in sublist]
+    new_docs_Q = [item for sublist in docs_Q for item in sublist]
     
-    if col ==1:
-        docs_sw = [get_collocations(docs) for sublist in docs_sw for docs in sublist]
-        docs_con = [get_collocations(docs) for sublist in docs_con for docs in sublist]
-    
-    #doc_tokens_sw = [doc.split() for doc in docs_sw]
-    #doc_tokens_con = [doc.split() for doc in docs_con]
-    
-    print(docs_sw[0])
-    new_docs_sw = [item for sublist in docs_sw for item in sublist]
-    new_docs_con = [item for sublist in docs_con for item in sublist]
-    print(new_docs_sw[0])
-    #new_docs_sw = [item for sublist in new_docs_sw for item in sublist]
-    #new_docs_con = [item for sublist in new_docs_con for item in sublist]
-    print(new_docs_sw[0])
-    
-    flat_docs_sw = [word for doc in new_docs_sw for word in doc.split()]
-    flat_docs_con = [word for doc in new_docs_con for word in doc.split()]
-    
-    #bows_sw, dict_sw = create_bows(doc_tokens_sw)
-    #bows_con, dict_con = create_bows(doc_tokens_con)
-    
-    #new_docs_sw = []
-    #new_docs_con = []
-    #for word in flat_docs_sw:
-     #   if word in dict_sw:
-      #      new_docs_sw.append(word)
+    #Change n for the size of ngrams
+    n = 3
+    if n >= 2:
+        flat_docs_P = []
+        for docu in new_docs_P:
+            words = docu.split()
+            flat_docs_P.append(words)
+            for k in range(2,n+1):
+                grams = make_grams(words,k)
+                flat_docs_P.append(grams)
+        
+        flat_docs_Q = []
+        for docu in new_docs_Q:
+            words = docu.split()
+            flat_docs_Q.append(words)
+            for k in range(2,n+1):
+                grams = make_grams(words,k)
+                flat_docs_Q.append(grams)
             
-    #for word in flat_docs_con:
-     #   if word in dict_con:
-      #      new_docs_con.append(word)
+        flat_docs_P = [word for doc in flat_docs_P for word in doc]
+        flat_docs_Q = [word for doc in flat_docs_Q for word in doc]
+    else:
+        flat_docs_P = [word for doc in new_docs_P for word in doc.split()]
+        flat_docs_Q = [word for doc in new_docs_Q for wor in doc.split()]
     
-    flat_docs_sw = remove_stopwords(flat_docs_sw)
-    flat_docs_con = remove_stopwords(flat_docs_con)
     
-    total_voc = flat_docs_sw + flat_docs_con
+    #flat_docs_sw = remove_stopwords(new_docs_sw)
+    #flat_docs_con = remove_stopwords(new_docs_con)
+    total_voc = flat_docs_P + flat_docs_Q
     vocab_size = len(Counter(total_voc))
     print(vocab_size)
-    prob_sw = uni_prob_smth(flat_docs_sw,vocab_size)
-    prob_con = uni_prob_smth(flat_docs_con,vocab_size)
+    prob_P = uni_prob_smth(flat_docs_P,vocab_size)
+    prob_Q = uni_prob_smth(flat_docs_Q,vocab_size)
     
-    div, div_dict = kl_div(prob_sw, prob_con,vocab_size)
-    div2, div_dict2 = kl_div(prob_con, prob_sw,vocab_size)
+    div, div_dict = kl_div(prob_P, prob_Q,vocab_size)
+    div2, div_dict2 = kl_div(prob_Q, prob_P,vocab_size)
     print(len(div_dict))
     print(len(div_dict2))
     
-    top_number = 400
-    div_file2 = 'top_div_unantoan_' + str(top_number)+ '.txt'
+    top_number = 600
+    title_P = help_make_title(P)
+    title_Q = help_make_title(Q)
+    
+    div_file2 = 'top_' + str(top_number) +'_div_' + title_Q + '_to_' +  title_P + 'up_to_' + str(n)+ 'grams' +'.txt'
     with open(div_file2, 'w') as f2:
         f2.write('D(p||q) = ' + str(div2) + '\n')
         runthru2 = list(div_dict2)
@@ -230,7 +238,7 @@ if __name__ == '__main__':
             #row = [word, div]
             f2.write(str(word) + ' ' + str(div2) + '\n')
     
-    div_file = 'top_div_antounan_' + str(top_number)+ '.txt'
+    div_file = 'top_' + str(top_number) +'_div_' + title_P + '_to_' +  title_Q + 'up_to_' + str(n)+ 'grams' +'.txt'
     with open(div_file, 'w') as f:
         f.write('D(p||q) = ' + str(div) + '\n')
         runthru1 = list(div_dict)
