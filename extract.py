@@ -3,6 +3,9 @@ from user import User, Post
 from gensim import corpora 
 import numpy as np
 
+import multiprocessing.pool
+
+
 # call on get_exploratory_data() to get exploratory data
 
 
@@ -124,18 +127,25 @@ def get_counts(docs, dictionary):
         voca_dic[word] = len(voca_dic)
         voca_list.append(word)
 
-    doc_ids = list()
-    doc_cnt = list()
-
-    for i, doc in enumerate(docs):
+    doc_info = list()
+    def add_docs(d):
+        doc = docs[d]
         words = set(doc)
         ids = np.array([int(voca_dic[word]) for word in words if word in voca_dic])
         cnt = np.array([int(doc.count(word)) for word in words if word in voca_dic])
 
-        doc_ids.append(ids)
-        doc_cnt.append(cnt)
+        doc_info.append((ids, cnt))
+
+    worker = lambda d: add_docs(d)
+    chunksize =  5000
+    with multiprocessing.pool.ThreadPool() as pool:
+        pool.map(worker, range(len(docs)), chunksize)
+
+    doc_ids = [d[0] for d in doc_info]
+    doc_cnt = [d[1] for d in doc_info]
 
     return np.array(voca_list), doc_ids, doc_cnt
+
 
 def get_all_data():
     user_dict = load_user_dict()

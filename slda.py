@@ -74,7 +74,7 @@ if __name__ == '__main__':
     corpus_all, labels_all, ids_all = extract.remove_empty_posts(corpus_all, labels_all, ids_all)
     print('{} docs'.format(len(corpus_all)))
 
-    topic_vecs = model.heldoutEstep(max_iter=10, heldout=corpus_all)
+    topic_vecs = model.heldoutEstep(max_iter=5, heldout=corpus_all)
     print('{} topic vectors'.format(topic_vecs.shape))
     print('finished inferring')
     post_topics = {}
