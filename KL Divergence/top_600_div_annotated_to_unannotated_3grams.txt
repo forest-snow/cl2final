@@ -1,601 +1,601 @@
-D(p||q) = 0.058383334853519056
-('dont', 'even', 'know') 7.373042229299945e-05
-('fireteams', 'hunter', 'lfg') 7.292179471495934e-05
-('fireteams', 'hunter', 'lfm') 6.403356817025115e-05
-('year', 'old', 'female') 5.926181038041216e-05
-('fireteams', 'xbox', 'one') 5.7515149166575956e-05
-('female', 'socially', 'anxious') 5.7515149166575956e-05
-('feel', 'like', 'shit') 5.332618492898734e-05
-('dont', 'know', 'anymore') 5.1943013697605184e-05
-('xbox', 'one', 'lfm') 4.9041243685939876e-05
-('dont', 'really', 'know') 4.806216503148195e-05
-('dont', 'want', 'live') 4.7870967723188544e-05
-('borderline', 'personality', 'disorder') 4.728696388375089e-05
-('pst', 'mathew', 'turner') 4.6964686328371414e-05
-('make', 'feel', 'well') 4.6283600087907646e-05
-('make', 'feel', 'like') 4.438776260559678e-05
-('dont', 'much', 'experience') 3.686193996113037e-05
-('ive', 'never', 'felt') 3.6366203356331405e-05
-('work', 'full', 'time') 3.6025460595491436e-05
-('dont', 'know', 'feel') 3.576197897361689e-05
-('long', 'distance', 'relationship') 3.4902195187355996e-05
-('run', 'small', 'business') 3.4902195187355996e-05
-('small', 'business', 'sister') 3.4902195187355996e-05
-('business', 'sister', 'shop') 3.4902195187355996e-05
-('sister', 'shop', 'cater') 3.4902195187355996e-05
-('shop', 'cater', 'subculture') 3.4902195187355996e-05
-('cater', 'subculture', 'like') 3.4902195187355996e-05
-('subculture', 'like', 'anime') 3.4902195187355996e-05
-('much', 'experience', 'interact') 3.4902195187355996e-05
-('experience', 'interact', 'guy') 3.4902195187355996e-05
-('interact', 'guy', 'age') 3.4902195187355996e-05
-('guy', 'age', 'never') 3.4902195187355996e-05
-('feel', 'like', 'ive') 3.371585503408367e-05
-('socially', 'anxious', 'dont') 3.296456617552924e-05
-('anxious', 'dont', 'much') 3.296456617552924e-05
-('anyone', 'else', 'feel') 3.27278446644875e-05
-('dont', 'feel', 'like') 3.2358921568664395e-05
-('dont', 'know', 'get') 3.1609997777580144e-05
-('dont', 'know', 'want') 3.031391850327856e-05
-('would', 'really', 'appreciate') 3.02467707735539e-05
-('push', 'talk', 'little') 2.9159423738575136e-05
-('day', 'life', 'mayor') 2.9159423738575136e-05
-('still', 'feel', 'like') 2.8498312122387652e-05
-('dont', 'want', 'get') 2.804085515099204e-05
-('meet', 'new', 'people') 2.758569957334118e-05
-('internal', 'hard', 'drive') 2.7481042478668783e-05
-('fuck', 'fuck', 'fuck') 2.7294006040637554e-05
-('social', 'anxiety', 'depression') 2.7294006040637554e-05
-('good', 'parent', 'dont') 2.7294006040637554e-05
-('newark', 'bike', 'project') 2.7294006040637554e-05
-('would', 'like', 'know') 2.6741436868807382e-05
-('two', 'year', 'ago') 2.6274432708744398e-05
-('cant', 'help', 'feel') 2.584818591030853e-05
-('cant', 'even', 'get') 2.5454919563834557e-05
-('dont', 'even', 'want') 2.516808273121983e-05
-('really', 'dont', 'know') 2.5013143006883204e-05
-('dont', 'know', 'really') 2.4228796019902743e-05
-('cal', 'fat', 'carb') 2.3643481941875446e-05
-('make', 'new', 'friend') 2.321033391799428e-05
-('dont', 'know', 'whats') 2.2784315123334542e-05
-('dont', 'know', 'ive') 2.2447087194926085e-05
-('mental', 'health', 'issue') 2.243728849195341e-05
-('dont', 'want', 'anymore') 2.224028154738306e-05
-('make', 'look', 'like') 2.2237876464077023e-05
-('know', 'dont', 'want') 2.191787962070259e-05
-('advice', 'would', 'great') 2.1861149689952683e-05
-('dont', 'really', 'like') 2.1861149689952683e-05
-('buildapc', 'build', 'help') 2.1248883125431914e-05
-('dont', 'know', 'dont') 2.1207679540316286e-05
-('dont', 'think', 'ill') 2.1192104734197016e-05
-('could', 'really', 'use') 2.1073331851720097e-05
-('really', 'feel', 'like') 2.1073331851720097e-05
-('else', 'feel', 'like') 2.0972530728677835e-05
-('year', 'high', 'school') 2.064385362211714e-05
-('dont', 'know', 'anyone') 2.0146518249035395e-05
-('time', 'feel', 'like') 2.0146518249035395e-05
-('never', 'mind', 'men') 2.0109541395888417e-05
-('mind', 'men', 'think') 2.0109541395888417e-05
-('feel', 'like', 'life') 1.9401014390119246e-05
-('know', 'feel', 'like') 1.9401014390119246e-05
-('dont', 'want', 'lose') 1.8755832772758405e-05
-('dont', 'know', 'need') 1.8390466382227453e-05
-('dont', 'know', 'happen') 1.8390466382227453e-05
-('feel', 'much', 'better') 1.8390466382227453e-05
-('low', 'self', 'confidence') 1.8390466382227453e-05
-('star', 'limit', 'holdem') 1.8390466382227453e-05
-('reddit', 'poker', 'converterhttpwwwhandconvertercom') 1.8390466382227453e-05
-('poker', 'converterhttpwwwhandconvertercom', 'poker') 1.8390466382227453e-05
-('converterhttpwwwhandconvertercom', 'poker', 'video') 1.8390466382227453e-05
-('poker', 'video', 'deucescrackedhttpwwwdeucescrackedcomreferrerconverterreddit') 1.8390466382227453e-05
-('clubteen', 'nsfw', 'question') 1.8390466382227453e-05
-('nsfw', 'question', 'thread') 1.8390466382227453e-05
-('age', 'never', 'mind') 1.8390466382227453e-05
-('close', 'make', 'lot') 1.8390466382227453e-05
-('make', 'lot', 'eye') 1.8390466382227453e-05
-('lot', 'eye', 'contact') 1.8390466382227453e-05
-('men', 'think', 'dave') 1.8390466382227453e-05
-('think', 'dave', 'late') 1.8390466382227453e-05
-('dave', 'late', 'early') 1.8390466382227453e-05
-('dont', 'know', 'believe') 1.8390466382227453e-05
-('year', 'old', 'guy') 1.801693973539896e-05
-('play', 'video', 'game') 1.78000429479293e-05
-('low', 'self', 'esteem') 1.7792225237906446e-05
-('doesnt', 'seem', 'like') 1.7590684804619694e-05
-('start', 'new', 'game') 1.6705960554797374e-05
-('still', 'live', 'home') 1.6705960554797374e-05
-('think', 'ill', 'ever') 1.6705960554797374e-05
-('poker', 'star', 'limit') 1.6705960554797374e-05
-('pre', 'flop', 'hero') 1.6705960554797374e-05
-('come', 'sometimes', 'teenage') 1.6705960554797374e-05
-('sometimes', 'teenage', 'step') 1.6705960554797374e-05
-('teenage', 'step', 'daughter') 1.6705960554797374e-05
-('step', 'daughter', 'good') 1.6705960554797374e-05
-('daughter', 'good', 'sometimes') 1.6705960554797374e-05
-('good', 'sometimes', 'take') 1.6705960554797374e-05
-('sometimes', 'take', 'buy') 1.6705960554797374e-05
-('take', 'buy', 'costume') 1.6705960554797374e-05
-('buy', 'costume', 'convention') 1.6705960554797374e-05
-('costume', 'convention', 'halloween') 1.6705960554797374e-05
-('look', 'side', 'booth') 1.6705960554797374e-05
-('side', 'booth', 'saw') 1.6705960554797374e-05
-('wave', 'surprise', 'see') 1.6705960554797374e-05
-('surprise', 'see', 'smile') 1.6705960554797374e-05
-('see', 'smile', 'wave') 1.6705960554797374e-05
-('smile', 'wave', 'back') 1.6705960554797374e-05
-('wave', 'touch', 'lip') 1.6705960554797374e-05
-('touch', 'lip', 'mouth') 1.6705960554797374e-05
-('turn', 'away', 'back') 1.6705960554797374e-05
-('away', 'back', 'deal') 1.6705960554797374e-05
-('back', 'deal', 'customer') 1.6705960554797374e-05
-('deal', 'customer', 'moment') 1.6705960554797374e-05
-('customer', 'moment', 'later') 1.6705960554797374e-05
-('start', 'conversation', 'hey') 1.6705960554797374e-05
-('conversation', 'hey', 'beautiful') 1.6705960554797374e-05
-('hey', 'beautiful', 'know') 1.6705960554797374e-05
-('beautiful', 'know', 'name') 1.6705960554797374e-05
-('know', 'name', 'never') 1.6705960554797374e-05
-('name', 'never', 'call') 1.6705960554797374e-05
-('never', 'call', 'though') 1.6705960554797374e-05
-('call', 'though', 'bit') 1.6705960554797374e-05
-('though', 'bit', 'flattered') 1.6705960554797374e-05
-('try', 'brush', 'change') 1.6705960554797374e-05
-('brush', 'change', 'subject') 1.6705960554797374e-05
-('change', 'subject', 'chat') 1.6705960554797374e-05
-('subject', 'chat', 'bit') 1.6705960554797374e-05
-('introduce', 'youngest', 'daughter') 1.6705960554797374e-05
-('youngest', 'daughter', 'stroller') 1.6705960554797374e-05
-('daughter', 'stroller', 'push') 1.6705960554797374e-05
-('stroller', 'push', 'talk') 1.6705960554797374e-05
-('talk', 'little', 'teenage') 1.6705960554797374e-05
-('little', 'teenage', 'daughter') 1.6705960554797374e-05
-('teenage', 'daughter', 'notice') 1.6705960554797374e-05
-('daughter', 'notice', 'talk') 1.6705960554797374e-05
-('notice', 'talk', 'would') 1.6705960554797374e-05
-('talk', 'would', 'lean') 1.6705960554797374e-05
-('would', 'lean', 'taller') 1.6705960554797374e-05
-('lean', 'taller', 'stand') 1.6705960554797374e-05
-('taller', 'stand', 'little') 1.6705960554797374e-05
-('stand', 'little', 'close') 1.6705960554797374e-05
-('help', 'around', 'house') 1.6705960554797374e-05
-('hunter', 'lfg', 'vog') 1.6705960554797374e-05
-('dont', 'think', 'ever') 1.6657998583060296e-05
-('dont', 'get', 'wrong') 1.6637153534776615e-05
-('anymore', 'dont', 'know') 1.636392233224375e-05
-('last', 'year', 'ive') 1.6299510886005207e-05
-('treat', 'like', 'shit') 1.6299510886005207e-05
-('really', 'dont', 'want') 1.609165808444902e-05
-('dont', 'know', 'whether') 1.5799832261381826e-05
-('dont', 'know', 'much') 1.532538865185621e-05
-('life', 'feel', 'like') 1.512338538677695e-05
-('ive', 'always', 'want') 1.512338538677695e-05
-('dont', 'want', 'back') 1.5058331842482001e-05
-('couldnt', 'think', 'anything') 1.5058331842482001e-05
-('tardy', 'bacardi', 'msg') 1.5058331842482001e-05
-('bacardi', 'msg', 'invite') 1.5058331842482001e-05
-('mfa', 'style', 'interview') 1.5058331842482001e-05
-('feel', 'free', 'message') 1.5058331842482001e-05
-('really', 'nice', 'even') 1.5058331842482001e-05
-('limit', 'holdem', 'player') 1.5058331842482001e-05
-('holdem', 'player', 'view') 1.5058331842482001e-05
-('player', 'view', 'hand') 1.5058331842482001e-05
-('view', 'hand', 'httpwwwhandconvertercomhands') 1.5058331842482001e-05
-('hand', 'httpwwwhandconvertercomhands', 'reddit') 1.5058331842482001e-05
-('httpwwwhandconvertercomhands', 'reddit', 'poker') 1.5058331842482001e-05
-('late', 'early', 'would') 1.5058331842482001e-05
-('early', 'would', 'say') 1.5058331842482001e-05
-('would', 'say', 'hit') 1.5058331842482001e-05
-('say', 'hit', 'nice') 1.5058331842482001e-05
-('hunter', 'lfg', 'fresh') 1.5058331842482001e-05
-('get', 'worse', 'worse') 1.496472479661739e-05
-('anymore', 'dont', 'want') 1.496472479661739e-05
-('every', 'time', 'get') 1.496472479661739e-05
-('want', 'dont', 'want') 1.496472479661739e-05
-('include', 'ship', 'tax') 1.493023797528284e-05
-('thing', 'ive', 'ever') 1.480455531410208e-05
-('random', 'number', 'generator') 1.480455531410208e-05
-('long', 'story', 'short') 1.4699592755179531e-05
-('feel', 'like', 'dont') 1.4460213948467075e-05
-('dont', 'want', 'leave') 1.402042757549602e-05
-('help', 'feel', 'like') 1.402042757549602e-05
-('modular', 'atx', 'power') 1.402042757549602e-05
-('still', 'dont', 'know') 1.3925294601767192e-05
-('look', 'new', 'friend') 1.3596251218849529e-05
-('thing', 'get', 'better') 1.3596251218849529e-05
-('right', 'dont', 'know') 1.3596251218849529e-05
-('dont', 'want', 'give') 1.3450218668711917e-05
-('would', 'get', 'better') 1.3450218668711917e-05
-('feel', 'like', 'cry') 1.3450218668711917e-05
-('love', 'best', 'friend') 1.3450218668711917e-05
-('say', 'ive', 'never') 1.3450218668711917e-05
-('cant', 'tell', 'anyone') 1.3450218668711917e-05
-('call', 'suicide', 'hotline') 1.3450218668711917e-05
-('last', 'time', 'saw') 1.3450218668711917e-05
-('ive', 'ever', 'felt') 1.3450218668711917e-05
-('hour', 'close', 'select') 1.3450218668711917e-05
-('older', 'male', 'customer') 1.3450218668711917e-05
-('mask', 'discomfort', 'mimic') 1.3450218668711917e-05
-('discomfort', 'mimic', 'pretend') 1.3450218668711917e-05
-('mimic', 'pretend', 'blow') 1.3450218668711917e-05
-('pretend', 'blow', 'kiss') 1.3450218668711917e-05
-('blow', 'kiss', 'back') 1.3450218668711917e-05
-('kiss', 'back', 'turn') 1.3450218668711917e-05
-('back', 'turn', 'away') 1.3450218668711917e-05
-('bit', 'flattered', 'really') 1.3450218668711917e-05
-('flattered', 'really', 'uncomfortable') 1.3450218668711917e-05
-('nice', 'even', 'give') 1.3450218668711917e-05
-('even', 'give', 'sister') 1.3450218668711917e-05
-('give', 'sister', 'old') 1.3450218668711917e-05
-('sister', 'old', 'fax') 1.3450218668711917e-05
-('old', 'fax', 'machine') 1.3450218668711917e-05
-('fax', 'machine', 'business') 1.3450218668711917e-05
-('machine', 'business', 'since') 1.3450218668711917e-05
-('business', 'since', 'saw') 1.3450218668711917e-05
-('since', 'saw', 'didnt') 1.3450218668711917e-05
-('saw', 'didnt', 'one') 1.3450218668711917e-05
-('didnt', 'one', 'also') 1.3450218668711917e-05
-('one', 'also', 'recommend') 1.3450218668711917e-05
-('also', 'recommend', 'handy') 1.3450218668711917e-05
-('recommend', 'handy', 'man') 1.3450218668711917e-05
-('handy', 'man', 'fix') 1.3450218668711917e-05
-('man', 'fix', 'plumbing') 1.3450218668711917e-05
-('fix', 'plumbing', 'issue') 1.3450218668711917e-05
-('plumbing', 'issue', 'new') 1.3450218668711917e-05
-('issue', 'new', 'house') 1.3450218668711917e-05
-('new', 'house', 'last') 1.3450218668711917e-05
-('house', 'last', 'year') 1.3450218668711917e-05
-('always', 'remind', 'let') 1.3450218668711917e-05
-('remind', 'let', 'know') 1.3450218668711917e-05
-('nice', 'man', 'dave') 1.3450218668711917e-05
-('man', 'dave', 'come') 1.3450218668711917e-05
-('dave', 'come', 'sometimes') 1.3450218668711917e-05
-('convention', 'halloween', 'etcanyway') 1.3450218668711917e-05
-('halloween', 'etcanyway', 'vendor') 1.3450218668711917e-05
-('etcanyway', 'vendor', 'convention') 1.3450218668711917e-05
-('one', 'point', 'look') 1.3450218668711917e-05
-('point', 'look', 'side') 1.3450218668711917e-05
-('booth', 'saw', 'dave') 1.3450218668711917e-05
-('saw', 'dave', 'wave') 1.3450218668711917e-05
-('dave', 'wave', 'surprise') 1.3450218668711917e-05
-('wave', 'back', 'shock') 1.3450218668711917e-05
-('back', 'shock', 'make') 1.3450218668711917e-05
-('shock', 'make', 'little') 1.3450218668711917e-05
-('make', 'little', 'uncomfortable') 1.3450218668711917e-05
-('little', 'uncomfortable', 'wave') 1.3450218668711917e-05
-('uncomfortable', 'wave', 'touch') 1.3450218668711917e-05
-('lip', 'mouth', 'blow') 1.3450218668711917e-05
-('mouth', 'blow', 'kiss') 1.3450218668711917e-05
-('blow', 'kiss', 'mask') 1.3450218668711917e-05
-('kiss', 'mask', 'discomfort') 1.3450218668711917e-05
-('moment', 'later', 'dave') 1.3450218668711917e-05
-('later', 'dave', 'come') 1.3450218668711917e-05
-('dave', 'come', 'start') 1.3450218668711917e-05
-('pretty', 'nervousshy', 'around') 1.3450218668711917e-05
-('nervousshy', 'around', 'people') 1.3450218668711917e-05
-('around', 'people', 'especially') 1.3450218668711917e-05
-('people', 'especially', 'guy') 1.3450218668711917e-05
-('especially', 'guy', 'try') 1.3450218668711917e-05
-('guy', 'try', 'brush') 1.3450218668711917e-05
-('chat', 'bit', 'business') 1.3450218668711917e-05
-('bit', 'business', 'need') 1.3450218668711917e-05
-('business', 'need', 'costume') 1.3450218668711917e-05
-('need', 'costume', 'afterwards') 1.3450218668711917e-05
-('costume', 'afterwards', 'remind') 1.3450218668711917e-05
-('afterwards', 'remind', 'ever') 1.3450218668711917e-05
-('remind', 'ever', 'need') 1.3450218668711917e-05
-('ever', 'need', 'help') 1.3450218668711917e-05
-('need', 'help', 'around') 1.3450218668711917e-05
-('around', 'house', 'plumb') 1.3450218668711917e-05
-('house', 'plumb', 'call') 1.3450218668711917e-05
-('plumb', 'call', 'introduce') 1.3450218668711917e-05
-('call', 'introduce', 'youngest') 1.3450218668711917e-05
-('little', 'close', 'make') 1.3450218668711917e-05
-('socially', 'anxious', 'ive') 1.3450218668711917e-05
-('poor', 'social', 'skill') 1.3450218668711917e-05
-('mutual', 'friend', 'invite') 1.3450218668711917e-05
-('animalcrossing', 'day', 'life') 1.3450218668711917e-05
-('know', 'much', 'longer') 1.3344168928429835e-05
-('feel', 'like', 'end') 1.3344168928429835e-05
-('try', 'make', 'feel') 1.3344168928429835e-05
-('feel', 'like', 'nothing') 1.3344168928429835e-05
-('anyone', 'else', 'find') 1.3344168928429835e-05
-('hey', 'year', 'old') 1.3344168928429835e-05
-('wonder', 'anyone', 'else') 1.330983640274973e-05
-('doesnt', 'make', 'sense') 1.330983640274973e-05
-('dont', 'want', 'die') 1.330983640274973e-05
-('feel', 'like', 'could') 1.2752337319139064e-05
-('dont', 'know', 'ill') 1.2752337319139064e-05
-('dont', 'want', 'anything') 1.2744571869172175e-05
-('would', 'much', 'appreciate') 1.2661913639972928e-05
-('take', 'time', 'read') 1.2638108650311192e-05
-('ship', 'tax', 'discount') 1.2439034515123502e-05
-('tax', 'discount', 'available') 1.2439034515123502e-05
-('need', 'help', 'find') 1.2301496221533302e-05
-('move', 'back', 'home') 1.2260310921484969e-05
-('really', 'want', 'know') 1.2260310921484969e-05
-('mental', 'health', 'problem') 1.2260310921484969e-05
-('make', 'feel', 'worse') 1.2260310921484969e-05
-('make', 'big', 'deal') 1.2105652938844863e-05
-('dont', 'know', 'one') 1.1920659657872298e-05
-('work', 'part', 'time') 1.1920659657872298e-05
-('feel', 'like', 'give') 1.1920659657872298e-05
-('almost', 'year', 'old') 1.1920659657872298e-05
-('dont', 'care', 'anymore') 1.1920659657872298e-05
-('depression', 'dont', 'know') 1.1920659657872298e-05
-('let', 'know', 'need') 1.1920659657872298e-05
-('last', 'couple', 'day') 1.1884666492207758e-05
-('almost', 'two', 'year') 1.1884666492207758e-05
-('ive', 'try', 'get') 1.1884666492207758e-05
-('iama', 'year', 'old') 1.1884666492207758e-05
-('dont', 'know', 'maybe') 1.1884666492207758e-05
-('two', 'month', 'ago') 1.1884666492207758e-05
-('like', 'feel', 'like') 1.1884666492207758e-05
-('back', 'dont', 'know') 1.1884666492207758e-05
-('friend', 'would', 'like') 1.1884666492207758e-05
-('really', 'dont', 'think') 1.1884666492207758e-05
-('suicidewatch', 'dont', 'want') 1.1884666492207758e-05
-('year', 'old', 'sister') 1.1884666492207758e-05
-('like', 'someone', 'like') 1.1884666492207758e-05
-('past', 'couple', 'year') 1.1884666492207758e-05
-('power', 'supplyhttppcpartpickercompartcorsair', 'power') 1.1884666492207758e-05
-('supplyhttppcpartpickercompartcorsair', 'power', 'supply') 1.1884666492207758e-05
-('please', 'help', 'dont') 1.1884666492207758e-05
-('every', 'time', 'start') 1.1884666492207758e-05
-('family', 'member', 'come') 1.1884666492207758e-05
-('number', 'hour', 'close') 1.1884666492207758e-05
-('close', 'select', 'number') 1.1884666492207758e-05
-('select', 'number', 'random') 1.1884666492207758e-05
-('number', 'random', 'number') 1.1884666492207758e-05
-('edit', 'thank', 'participate') 1.1884666492207758e-05
-('thank', 'participate', 'giveaway') 1.1884666492207758e-05
-('participate', 'giveaway', 'end') 1.1884666492207758e-05
-('depression', 'anyone', 'else') 1.1884666492207758e-05
-('ive', 'never', 'date') 1.1884666492207758e-05
-('anxiety', 'depression', 'poor') 1.1884666492207758e-05
-('depression', 'poor', 'social') 1.1884666492207758e-05
-('time', 'much', 'like') 1.1884666492207758e-05
-('something', 'ive', 'gotten') 1.1884666492207758e-05
-('get', 'back', 'say') 1.1884666492207758e-05
-('never', 'love', 'anyone') 1.1884666492207758e-05
-('lfg', 'vog', 'fresh') 1.1884666492207758e-05
-('old', 'female', 'kind') 1.1884666492207758e-05
-('female', 'kind', 'punctual') 1.1884666492207758e-05
-('kind', 'punctual', 'dedicate') 1.1884666492207758e-05
-('punctual', 'dedicate', 'energetic') 1.1884666492207758e-05
-('dedicate', 'energetic', 'patient') 1.1884666492207758e-05
-('energetic', 'patient', 'loving') 1.1884666492207758e-05
-('patient', 'loving', 'well') 1.1884666492207758e-05
-('loving', 'well', 'organize') 1.1884666492207758e-05
-('well', 'organize', 'individual') 1.1884666492207758e-05
-('first', 'time', 'ever') 1.1613895890041505e-05
-('feel', 'like', 'something') 1.1605711257645516e-05
-('askreddit', 'whats', 'best') 1.1605711257645516e-05
-('rpm', 'internal', 'hard') 1.1583706462661614e-05
-('make', 'feel', 'bad') 1.1499440120706826e-05
-('past', 'year', 'ive') 1.1499440120706826e-05
-('need', 'someone', 'talk') 1.1333157712805716e-05
-('price', 'include', 'ship') 1.1294284153643248e-05
-('couple', 'day', 'ago') 1.1202347956188531e-05
-('cant', 'help', 'think') 1.0958939810351295e-05
-('want', 'die', 'dont') 1.0958939810351295e-05
-('two', 'day', 'ago') 1.0930574844976342e-05
-('work', 'every', 'day') 1.0536665925860049e-05
-('homeworkhelp', 'high', 'school') 1.0536665925860049e-05
-('try', 'get', 'help') 1.0536665925860049e-05
-('dont', 'know', 'handle') 1.0536665925860049e-05
-('come', 'start', 'conversation') 1.0536665925860049e-05
-('guy', 'might', 'like') 1.0536665925860049e-05
-('dont', 'want', 'feel') 1.0486734050995861e-05
-('talk', 'dont', 'know') 1.036522999002711e-05
-('dont', 'know', 'way') 1.036522999002711e-05
-('sorry', 'long', 'post') 1.036522999002711e-05
-('make', 'eye', 'contact') 1.036522999002711e-05
-('break', 'month', 'ago') 1.036522999002711e-05
-('casualiama', 'year', 'old') 1.036522999002711e-05
-('year', 'dont', 'know') 1.036522999002711e-05
-('always', 'feel', 'like') 1.036522999002711e-05
-('askreddit', 'whats', 'worst') 1.036522999002711e-05
-('one', 'lfm', 'vog') 1.036522999002711e-05
-('lfm', 'vog', 'fresh') 1.036522999002711e-05
-('one', 'lfm', 'tardy') 1.036522999002711e-05
-('lfm', 'tardy', 'bacardi') 1.036522999002711e-05
-('dont', 'want', 'want') 1.036522999002711e-05
-('people', 'dont', 'like') 1.036522999002711e-05
-('dont', 'think', 'anything') 1.036522999002711e-05
-('atx', 'power', 'supplyhttppcpartpickercompartcorsair') 1.036522999002711e-05
-('remember', 'last', 'time') 1.036522999002711e-05
-('thing', 'make', 'feel') 1.036522999002711e-05
-('spend', 'rest', 'life') 1.036522999002711e-05
-('cant', 'help', 'wonder') 1.036522999002711e-05
-('dont', 'want', 'burden') 1.036522999002711e-05
-('feel', 'like', 'absolute') 1.036522999002711e-05
-('die', 'dont', 'want') 1.036522999002711e-05
-('hero', 'bet', 'call') 1.036522999002711e-05
-('winner', 'good', 'luck') 1.036522999002711e-05
-('clubteen', 'awkwardnsfw', 'question') 1.036522999002711e-05
-('awkwardnsfw', 'question', 'thread') 1.036522999002711e-05
-('question', 'thread', 'post') 1.036522999002711e-05
-('core', 'processorhttppcpartpickercompartamd', 'cpu') 1.036522999002711e-05
-('people', 'say', 'attractive') 1.036522999002711e-05
-('really', 'uncomfortable', 'pretty') 1.036522999002711e-05
-('uncomfortable', 'pretty', 'nervousshy') 1.036522999002711e-05
-('eye', 'contact', 'could') 1.036522999002711e-05
-('contact', 'could', 'noise') 1.036522999002711e-05
-('hat', 'dave', 'really') 1.036522999002711e-05
-('dave', 'really', 'nice') 1.036522999002711e-05
-('year', 'family', 'hire') 1.036522999002711e-05
-('family', 'hire', 'plumber') 1.036522999002711e-05
-('fix', 'bathroom', 'pipe') 1.036522999002711e-05
-('bathroom', 'pipe', 'june') 1.036522999002711e-05
-('leaky', 'pipe', 'house') 1.036522999002711e-05
-('pipe', 'house', 'arrive') 1.036522999002711e-05
-('house', 'arrive', 'comment') 1.036522999002711e-05
-('arrive', 'comment', 'twice') 1.036522999002711e-05
-('comment', 'twice', 'hair') 1.036522999002711e-05
-('twice', 'hair', 'look') 1.036522999002711e-05
-('hair', 'look', 'different') 1.036522999002711e-05
-('look', 'different', 'last') 1.036522999002711e-05
-('different', 'last', 'time') 1.036522999002711e-05
-('last', 'time', 'much') 1.036522999002711e-05
-('much', 'like', 'itmy') 1.036522999002711e-05
-('like', 'itmy', 'mom') 1.036522999002711e-05
-('itmy', 'mom', 'tell') 1.036522999002711e-05
-('mom', 'tell', 'talk') 1.036522999002711e-05
-('tell', 'talk', 'work') 1.036522999002711e-05
-('talk', 'work', 'keep') 1.036522999002711e-05
-('work', 'keep', 'company') 1.036522999002711e-05
-('keep', 'company', 'end') 1.036522999002711e-05
-('company', 'end', 'talk') 1.036522999002711e-05
-('end', 'talk', 'ear') 1.036522999002711e-05
-('talk', 'ear', 'ask') 1.036522999002711e-05
-('ear', 'ask', 'question') 1.036522999002711e-05
-('ask', 'question', 'well') 1.036522999002711e-05
-('pretty', 'nice', 'really') 1.036522999002711e-05
-('nice', 'really', 'business') 1.036522999002711e-05
-('really', 'business', 'spirituality') 1.036522999002711e-05
-('business', 'spirituality', 'something') 1.036522999002711e-05
-('spirituality', 'something', 'ive') 1.036522999002711e-05
-('ive', 'gotten', 'lately') 1.036522999002711e-05
-('gotten', 'lately', 'also') 1.036522999002711e-05
-('lately', 'also', 'crone') 1.036522999002711e-05
-('also', 'crone', 'disease') 1.036522999002711e-05
-('crone', 'disease', 'hospitalize') 1.036522999002711e-05
-('disease', 'hospitalize', 'surgery') 1.036522999002711e-05
-('hospitalize', 'surgery', 'run') 1.036522999002711e-05
-('surgery', 'run', 'small') 1.036522999002711e-05
-('like', 'anime', 'videogamesreasons') 1.036522999002711e-05
-('anime', 'videogamesreasons', 'think') 1.036522999002711e-05
-('videogamesreasons', 'think', 'like') 1.036522999002711e-05
-('mention', 'move', 'bigger') 1.036522999002711e-05
-('move', 'bigger', 'location') 1.036522999002711e-05
-('bigger', 'location', 'week') 1.036522999002711e-05
-('carry', 'fixture', 'truck') 1.036522999002711e-05
-('fixture', 'truck', 'refuse') 1.036522999002711e-05
-('truck', 'refuse', 'payment') 1.036522999002711e-05
-('refuse', 'payment', 'texted') 1.036522999002711e-05
-('payment', 'texted', 'full') 1.036522999002711e-05
-('texted', 'full', 'month') 1.036522999002711e-05
-('full', 'month', 'one') 1.036522999002711e-05
-('day', 'start', 'ignore') 1.036522999002711e-05
-('start', 'ignore', 'text') 1.036522999002711e-05
-('ignore', 'text', 'call') 1.036522999002711e-05
-('text', 'call', 'need') 1.036522999002711e-05
-('call', 'need', 'help') 1.036522999002711e-05
-('need', 'help', 'apologize') 1.036522999002711e-05
-('help', 'apologize', 'get') 1.036522999002711e-05
-('apologize', 'get', 'back') 1.036522999002711e-05
-('back', 'say', 'wouldnt') 1.036522999002711e-05
-('say', 'wouldnt', 'hes') 1.036522999002711e-05
-('wouldnt', 'hes', 'busy') 1.036522999002711e-05
-('hes', 'busy', 'guy') 1.036522999002711e-05
-('busy', 'guy', 'sometimes') 1.036522999002711e-05
-('guy', 'sometimes', 'felt') 1.036522999002711e-05
-('sometimes', 'felt', 'like') 1.036522999002711e-05
-('felt', 'like', 'bother') 1.036522999002711e-05
-('like', 'bother', 'work') 1.036522999002711e-05
-('bother', 'work', 'ignore') 1.036522999002711e-05
-('work', 'ignore', 'purpose') 1.036522999002711e-05
-('ignore', 'purpose', 'come') 1.036522999002711e-05
-('purpose', 'come', 'store') 1.036522999002711e-05
-('come', 'store', 'day') 1.036522999002711e-05
-('store', 'day', 'birthday') 1.036522999002711e-05
-('day', 'birthday', 'drop') 1.036522999002711e-05
-('birthday', 'drop', 'vase') 1.036522999002711e-05
-('drop', 'vase', 'flower') 1.036522999002711e-05
-('vase', 'flower', 'say') 1.036522999002711e-05
-('flower', 'say', 'flower') 1.036522999002711e-05
-('say', 'flower', 'represent') 1.036522999002711e-05
-('flower', 'represent', 'one') 1.036522999002711e-05
-('represent', 'one', 'family') 1.036522999002711e-05
-('one', 'family', 'member') 1.036522999002711e-05
-('member', 'come', 'house') 1.036522999002711e-05
-('come', 'house', 'business') 1.036522999002711e-05
-('house', 'business', 'give') 1.036522999002711e-05
-('business', 'give', 'organic') 1.036522999002711e-05
-('give', 'organic', 'apple') 1.036522999002711e-05
-('organic', 'apple', 'friend') 1.036522999002711e-05
-('apple', 'friend', 'hes') 1.036522999002711e-05
-('friend', 'hes', 'come') 1.036522999002711e-05
-('hes', 'come', 'store') 1.036522999002711e-05
-('though', 'tell', 'could') 1.036522999002711e-05
-('tell', 'could', 'text') 1.036522999002711e-05
-('could', 'text', 'anytime') 1.036522999002711e-05
-('text', 'anytime', 'fairness') 1.036522999002711e-05
-('say', 'phone', 'drop') 1.036522999002711e-05
-('phone', 'drop', 'water') 1.036522999002711e-05
-('drop', 'water', 'claim') 1.036522999002711e-05
-('water', 'claim', 'lose') 1.036522999002711e-05
-('claim', 'lose', 'everyones') 1.036522999002711e-05
-('lose', 'everyones', 'number') 1.036522999002711e-05
-('although', 'ask', 'drink') 1.036522999002711e-05
-('ask', 'drink', 'separate') 1.036522999002711e-05
-('drink', 'separate', 'occasion') 1.036522999002711e-05
-('separate', 'occasion', 'weve') 1.036522999002711e-05
-('occasion', 'weve', 'never') 1.036522999002711e-05
-('ive', 'never', 'love') 1.036522999002711e-05
-('hunter', 'lfm', 'fresh') 1.036522999002711e-05
-('dont', 'see', 'point') 1.036522999002711e-05
-('cant', 'even', 'afford') 1.036522999002711e-05
-('certify', 'fully', 'modular') 1.036522999002711e-05
-('fully', 'modular', 'atx') 1.036522999002711e-05
-('lose', 'best', 'friend') 1.036522999002711e-05
-('paul', 'blart', 'paul') 1.036522999002711e-05
-('blart', 'paul', 'blart') 1.036522999002711e-05
-('chronic', 'pain', 'patient') 1.036522999002711e-05
-('video', 'game', 'blog') 1.036522999002711e-05
-('long', 'period', 'time') 1.0286841652644781e-05
-('ive', 'pretty', 'much') 1.0286841652644781e-05
-('total', 'price', 'include') 9.88249863443784e-06
-('know', 'dont', 'know') 9.835160444583934e-06
-('hard', 'drive', 'stdm') 9.835160444583934e-06
-('sure', 'right', 'place') 9.786220708966319e-06
-('think', 'guy', 'might') 9.786220708966319e-06
-('suicidewatch', 'dont', 'know') 9.694445814332327e-06
-('long', 'time', 'lurker') 9.694445814332327e-06
-('thing', 'dont', 'know') 9.694445814332327e-06
-('dont', 'want', 'hurt') 9.694445814332327e-06
-('want', 'feel', 'like') 9.39686221438255e-06
-('graduate', 'high', 'school') 9.39686221438255e-06
-('want', 'live', 'anymore') 9.195233191113726e-06
-('know', 'anyone', 'else') 9.195233191113726e-06
-('feel', 'like', 'theyre') 9.195233191113726e-06
-('friend', 'dont', 'want') 9.195233191113726e-06
-('two', 'half', 'year') 9.195233191113726e-06
-('feel', 'like', 'crap') 9.195233191113726e-06
-('askreddit', 'reddit', 'whats') 9.195233191113726e-06
-('cant', 'anything', 'right') 9.195233191113726e-06
-('one', 'day', 'start') 9.195233191113726e-06
-('never', 'tell', 'anyone') 9.195233191113726e-06
-('would', 'great', 'thanks') 9.108812370813619e-06
-('dont', 'know', 'long') 9.108812370813619e-06
-('ive', 'never', 'able') 9.108812370813619e-06
-('geforce', 'gtx', 'video') 9.108812370813619e-06
-('feel', 'like', 'cant') 9.036390055217688e-06
-('storage', 'seagate', 'barracuda') 9.036390055217688e-06
-('dont', 'know', 'else') 8.982516390797572e-06
-('dead', 'end', 'job') 8.896112618953223e-06
-('know', 'whats', 'wrong') 8.896112618953223e-06
-('dont', 'want', 'kill') 8.896112618953223e-06
-('dont', 'want', 'help') 8.896112618953223e-06
-('past', 'week', 'ive') 8.896112618953223e-06
-('point', 'dont', 'know') 8.896112618953223e-06
-('person', 'feel', 'like') 8.896112618953223e-06
-('try', 'get', 'rid') 8.896112618953223e-06
-('like', 'look', 'like') 8.896112618953223e-06
-('want', 'leave', 'alone') 8.896112618953223e-06
-('dont', 'know', 'sure') 8.896112618953223e-06
-('malefashionadvice', 'mfa', 'style') 8.896112618953223e-06
-('discover', 'fashion', 'important') 8.896112618953223e-06
-('think', 'would', 'fun') 8.896112618953223e-06
-('look', 'back', 'realize') 8.896112618953223e-06
-('get', 'better', 'dont') 8.896112618953223e-06
-('really', 'want', 'die') 8.896112618953223e-06
-('thing', 'get', 'well') 8.896112618953223e-06
-('happy', 'feel', 'like') 8.896112618953223e-06
-('something', 'bad', 'happen') 8.896112618953223e-06
-('hard', 'feel', 'like') 8.896112618953223e-06
-('first', 'time', 'try') 8.896112618953223e-06
-('hello', 'user', 'cmv') 8.896112618953223e-06
-('user', 'cmv', 'footnote') 8.896112618953223e-06
-('cmv', 'footnote', 'moderator') 8.896112618953223e-06
-('footnote', 'moderator', 'wed') 8.896112618953223e-06
+D(p||q) = 0.10955606961602572
+('fireteams', 'hunter', 'lfg') 8.605480371845549e-05
+('fireteams', 'hunter', 'lfm') 7.577427718964749e-05
+('dont', 'even', 'know') 7.359011071845451e-05
+('fireteams', 'xbox', 'one') 6.821424621505353e-05
+('female', 'socially', 'anxious') 6.821424621505353e-05
+('year', 'old', 'female') 6.568828512346657e-05
+('xbox', 'one', 'lfm') 5.8355968606408736e-05
+('fireteams', 'xbox', 'one', 'lfm') 5.8355968606408736e-05
+('pst', 'mathew', 'turner') 5.593427407892923e-05
+('feel', 'like', 'shit') 5.457481527900414e-05
+('dont', 'know', 'anymore') 5.335661162955206e-05
+('borderline', 'personality', 'disorder') 5.0956446650577246e-05
+('dont', 'want', 'live') 4.970403086266026e-05
+('make', 'feel', 'well') 4.805745115803882e-05
+('dont', 'really', 'know') 4.802647736052375e-05
+('make', 'feel', 'like') 4.4515472317667985e-05
+('dont', 'much', 'experience') 4.41132592209543e-05
+('long', 'distance', 'relationship') 4.1811659466698274e-05
+('run', 'small', 'business') 4.1811659466698274e-05
+('small', 'business', 'sister') 4.1811659466698274e-05
+('business', 'sister', 'shop') 4.1811659466698274e-05
+('sister', 'shop', 'cater') 4.1811659466698274e-05
+('shop', 'cater', 'subculture') 4.1811659466698274e-05
+('cater', 'subculture', 'like') 4.1811659466698274e-05
+('subculture', 'like', 'anime') 4.1811659466698274e-05
+('much', 'experience', 'interact') 4.1811659466698274e-05
+('experience', 'interact', 'guy') 4.1811659466698274e-05
+('interact', 'guy', 'age') 4.1811659466698274e-05
+('guy', 'age', 'never') 4.1811659466698274e-05
+('run', 'small', 'business', 'sister') 4.1811659466698274e-05
+('small', 'business', 'sister', 'shop') 4.1811659466698274e-05
+('business', 'sister', 'shop', 'cater') 4.1811659466698274e-05
+('sister', 'shop', 'cater', 'subculture') 4.1811659466698274e-05
+('shop', 'cater', 'subculture', 'like') 4.1811659466698274e-05
+('cater', 'subculture', 'like', 'anime') 4.1811659466698274e-05
+('dont', 'much', 'experience', 'interact') 4.1811659466698274e-05
+('much', 'experience', 'interact', 'guy') 4.1811659466698274e-05
+('experience', 'interact', 'guy', 'age') 4.1811659466698274e-05
+('interact', 'guy', 'age', 'never') 4.1811659466698274e-05
+('ive', 'never', 'felt') 4.0507159465428984e-05
+('socially', 'anxious', 'dont') 3.953290725217254e-05
+('anxious', 'dont', 'much') 3.953290725217254e-05
+('female', 'socially', 'anxious', 'dont') 3.953290725217254e-05
+('socially', 'anxious', 'dont', 'much') 3.953290725217254e-05
+('anxious', 'dont', 'much', 'experience') 3.953290725217254e-05
+('work', 'full', 'time') 3.8173784708937764e-05
+('dont', 'know', 'feel') 3.672785370505535e-05
+('push', 'talk', 'little') 3.504801183368704e-05
+('day', 'life', 'mayor') 3.504801183368704e-05
+('feel', 'like', 'ive') 3.438223383513011e-05
+('anyone', 'else', 'feel') 3.377092347214225e-05
+('fuck', 'fuck', 'fuck') 3.284414089494204e-05
+('social', 'anxiety', 'depression') 3.284414089494204e-05
+('good', 'parent', 'dont') 3.284414089494204e-05
+('newark', 'bike', 'project') 3.284414089494204e-05
+('dont', 'know', 'get') 3.245759307743035e-05
+('dont', 'feel', 'like') 3.230398495193029e-05
+('meet', 'new', 'people') 3.079357718815704e-05
+('still', 'feel', 'like') 3.0778562278753494e-05
+('cant', 'even', 'get') 3.066769049929541e-05
+('would', 'really', 'appreciate') 3.063082831764031e-05
+('dont', 'know', 'want') 3.06056930583195e-05
+('dont', 'want', 'get') 2.867357778553336e-05
+('cal', 'fat', 'carb') 2.8520105134666585e-05
+('internal', 'hard', 'drive') 2.7504978527691553e-05
+('dont', 'know', 'really') 2.7068623501813922e-05
+('two', 'year', 'ago') 2.6967959181274356e-05
+('would', 'like', 'know') 2.689983847276611e-05
+('dont', 'even', 'want') 2.6678305436911207e-05
+('cant', 'help', 'feel') 2.666052685615973e-05
+('advice', 'would', 'great') 2.640299002327553e-05
+('dont', 'really', 'like') 2.640299002327553e-05
+('really', 'dont', 'know') 2.5114714917048142e-05
+('never', 'mind', 'men') 2.4318139547055338e-05
+('mind', 'men', 'think') 2.4318139547055338e-05
+('never', 'mind', 'men', 'think') 2.4318139547055338e-05
+('make', 'look', 'like') 2.402872512692869e-05
+('make', 'new', 'friend') 2.3932877825319555e-05
+('dont', 'know', 'whats') 2.3644448484243828e-05
+('dont', 'want', 'anymore') 2.35730563567649e-05
+('dont', 'know', 'ive') 2.3497899066789972e-05
+('else', 'feel', 'like') 2.3448243899564702e-05
+('mental', 'health', 'issue') 2.301867359297008e-05
+('know', 'dont', 'want') 2.259617261904441e-05
+('dont', 'know', 'need') 2.2267572800188664e-05
+('feel', 'much', 'better') 2.2267572800188664e-05
+('low', 'self', 'confidence') 2.2267572800188664e-05
+('star', 'limit', 'holdem') 2.2267572800188664e-05
+('reddit', 'poker', 'converterhttpwwwhandconvertercom') 2.2267572800188664e-05
+('poker', 'converterhttpwwwhandconvertercom', 'poker') 2.2267572800188664e-05
+('converterhttpwwwhandconvertercom', 'poker', 'video') 2.2267572800188664e-05
+('poker', 'video', 'deucescrackedhttpwwwdeucescrackedcomreferrerconverterreddit') 2.2267572800188664e-05
+('reddit', 'poker', 'converterhttpwwwhandconvertercom', 'poker') 2.2267572800188664e-05
+('poker', 'converterhttpwwwhandconvertercom', 'poker', 'video') 2.2267572800188664e-05
+('converterhttpwwwhandconvertercom', 'poker', 'video', 'deucescrackedhttpwwwdeucescrackedcomreferrerconverterreddit') 2.2267572800188664e-05
+('clubteen', 'nsfw', 'question') 2.2267572800188664e-05
+('nsfw', 'question', 'thread') 2.2267572800188664e-05
+('clubteen', 'nsfw', 'question', 'thread') 2.2267572800188664e-05
+('age', 'never', 'mind') 2.2267572800188664e-05
+('guy', 'age', 'never', 'mind') 2.2267572800188664e-05
+('close', 'make', 'lot') 2.2267572800188664e-05
+('make', 'lot', 'eye') 2.2267572800188664e-05
+('lot', 'eye', 'contact') 2.2267572800188664e-05
+('men', 'think', 'dave') 2.2267572800188664e-05
+('think', 'dave', 'late') 2.2267572800188664e-05
+('dave', 'late', 'early') 2.2267572800188664e-05
+('close', 'make', 'lot', 'eye') 2.2267572800188664e-05
+('make', 'lot', 'eye', 'contact') 2.2267572800188664e-05
+('men', 'think', 'dave', 'late') 2.2267572800188664e-05
+('think', 'dave', 'late', 'early') 2.2267572800188664e-05
+('dont', 'know', 'believe') 2.2267572800188664e-05
+('could', 'really', 'use') 2.205663127682403e-05
+('really', 'feel', 'like') 2.205663127682403e-05
+('dont', 'think', 'ill') 2.1736891793887492e-05
+('dont', 'know', 'dont') 2.159807362363637e-05
+('buildapc', 'build', 'help') 2.1283964262987985e-05
+('year', 'high', 'school') 2.1278373996076772e-05
+('dont', 'know', 'anyone') 2.0899317811315467e-05
+('time', 'feel', 'like') 2.0899317811315467e-05
+('feel', 'like', 'life') 2.0559277020766407e-05
+('know', 'feel', 'like') 2.0559277020766407e-05
+('start', 'new', 'game') 2.0253578653656784e-05
+('still', 'live', 'home') 2.0253578653656784e-05
+('think', 'ill', 'ever') 2.0253578653656784e-05
+('dont', 'think', 'ill', 'ever') 2.0253578653656784e-05
+('poker', 'star', 'limit') 2.0253578653656784e-05
+('pre', 'flop', 'hero') 2.0253578653656784e-05
+('poker', 'star', 'limit', 'holdem') 2.0253578653656784e-05
+('dont', 'know', 'feel', 'like') 2.0253578653656784e-05
+('come', 'sometimes', 'teenage') 2.0253578653656784e-05
+('sometimes', 'teenage', 'step') 2.0253578653656784e-05
+('teenage', 'step', 'daughter') 2.0253578653656784e-05
+('step', 'daughter', 'good') 2.0253578653656784e-05
+('daughter', 'good', 'sometimes') 2.0253578653656784e-05
+('good', 'sometimes', 'take') 2.0253578653656784e-05
+('sometimes', 'take', 'buy') 2.0253578653656784e-05
+('take', 'buy', 'costume') 2.0253578653656784e-05
+('buy', 'costume', 'convention') 2.0253578653656784e-05
+('costume', 'convention', 'halloween') 2.0253578653656784e-05
+('look', 'side', 'booth') 2.0253578653656784e-05
+('side', 'booth', 'saw') 2.0253578653656784e-05
+('wave', 'surprise', 'see') 2.0253578653656784e-05
+('surprise', 'see', 'smile') 2.0253578653656784e-05
+('see', 'smile', 'wave') 2.0253578653656784e-05
+('smile', 'wave', 'back') 2.0253578653656784e-05
+('wave', 'touch', 'lip') 2.0253578653656784e-05
+('touch', 'lip', 'mouth') 2.0253578653656784e-05
+('turn', 'away', 'back') 2.0253578653656784e-05
+('away', 'back', 'deal') 2.0253578653656784e-05
+('back', 'deal', 'customer') 2.0253578653656784e-05
+('deal', 'customer', 'moment') 2.0253578653656784e-05
+('customer', 'moment', 'later') 2.0253578653656784e-05
+('start', 'conversation', 'hey') 2.0253578653656784e-05
+('conversation', 'hey', 'beautiful') 2.0253578653656784e-05
+('hey', 'beautiful', 'know') 2.0253578653656784e-05
+('beautiful', 'know', 'name') 2.0253578653656784e-05
+('know', 'name', 'never') 2.0253578653656784e-05
+('name', 'never', 'call') 2.0253578653656784e-05
+('never', 'call', 'though') 2.0253578653656784e-05
+('call', 'though', 'bit') 2.0253578653656784e-05
+('though', 'bit', 'flattered') 2.0253578653656784e-05
+('try', 'brush', 'change') 2.0253578653656784e-05
+('brush', 'change', 'subject') 2.0253578653656784e-05
+('change', 'subject', 'chat') 2.0253578653656784e-05
+('subject', 'chat', 'bit') 2.0253578653656784e-05
+('introduce', 'youngest', 'daughter') 2.0253578653656784e-05
+('youngest', 'daughter', 'stroller') 2.0253578653656784e-05
+('daughter', 'stroller', 'push') 2.0253578653656784e-05
+('stroller', 'push', 'talk') 2.0253578653656784e-05
+('talk', 'little', 'teenage') 2.0253578653656784e-05
+('little', 'teenage', 'daughter') 2.0253578653656784e-05
+('teenage', 'daughter', 'notice') 2.0253578653656784e-05
+('daughter', 'notice', 'talk') 2.0253578653656784e-05
+('notice', 'talk', 'would') 2.0253578653656784e-05
+('talk', 'would', 'lean') 2.0253578653656784e-05
+('would', 'lean', 'taller') 2.0253578653656784e-05
+('lean', 'taller', 'stand') 2.0253578653656784e-05
+('taller', 'stand', 'little') 2.0253578653656784e-05
+('stand', 'little', 'close') 2.0253578653656784e-05
+('come', 'sometimes', 'teenage', 'step') 2.0253578653656784e-05
+('sometimes', 'teenage', 'step', 'daughter') 2.0253578653656784e-05
+('teenage', 'step', 'daughter', 'good') 2.0253578653656784e-05
+('step', 'daughter', 'good', 'sometimes') 2.0253578653656784e-05
+('daughter', 'good', 'sometimes', 'take') 2.0253578653656784e-05
+('good', 'sometimes', 'take', 'buy') 2.0253578653656784e-05
+('sometimes', 'take', 'buy', 'costume') 2.0253578653656784e-05
+('take', 'buy', 'costume', 'convention') 2.0253578653656784e-05
+('buy', 'costume', 'convention', 'halloween') 2.0253578653656784e-05
+('look', 'side', 'booth', 'saw') 2.0253578653656784e-05
+('wave', 'surprise', 'see', 'smile') 2.0253578653656784e-05
+('surprise', 'see', 'smile', 'wave') 2.0253578653656784e-05
+('see', 'smile', 'wave', 'back') 2.0253578653656784e-05
+('wave', 'touch', 'lip', 'mouth') 2.0253578653656784e-05
+('turn', 'away', 'back', 'deal') 2.0253578653656784e-05
+('away', 'back', 'deal', 'customer') 2.0253578653656784e-05
+('back', 'deal', 'customer', 'moment') 2.0253578653656784e-05
+('deal', 'customer', 'moment', 'later') 2.0253578653656784e-05
+('start', 'conversation', 'hey', 'beautiful') 2.0253578653656784e-05
+('conversation', 'hey', 'beautiful', 'know') 2.0253578653656784e-05
+('hey', 'beautiful', 'know', 'name') 2.0253578653656784e-05
+('beautiful', 'know', 'name', 'never') 2.0253578653656784e-05
+('know', 'name', 'never', 'call') 2.0253578653656784e-05
+('name', 'never', 'call', 'though') 2.0253578653656784e-05
+('never', 'call', 'though', 'bit') 2.0253578653656784e-05
+('call', 'though', 'bit', 'flattered') 2.0253578653656784e-05
+('try', 'brush', 'change', 'subject') 2.0253578653656784e-05
+('brush', 'change', 'subject', 'chat') 2.0253578653656784e-05
+('change', 'subject', 'chat', 'bit') 2.0253578653656784e-05
+('introduce', 'youngest', 'daughter', 'stroller') 2.0253578653656784e-05
+('youngest', 'daughter', 'stroller', 'push') 2.0253578653656784e-05
+('daughter', 'stroller', 'push', 'talk') 2.0253578653656784e-05
+('stroller', 'push', 'talk', 'little') 2.0253578653656784e-05
+('push', 'talk', 'little', 'teenage') 2.0253578653656784e-05
+('talk', 'little', 'teenage', 'daughter') 2.0253578653656784e-05
+('little', 'teenage', 'daughter', 'notice') 2.0253578653656784e-05
+('teenage', 'daughter', 'notice', 'talk') 2.0253578653656784e-05
+('daughter', 'notice', 'talk', 'would') 2.0253578653656784e-05
+('notice', 'talk', 'would', 'lean') 2.0253578653656784e-05
+('talk', 'would', 'lean', 'taller') 2.0253578653656784e-05
+('would', 'lean', 'taller', 'stand') 2.0253578653656784e-05
+('lean', 'taller', 'stand', 'little') 2.0253578653656784e-05
+('taller', 'stand', 'little', 'close') 2.0253578653656784e-05
+('age', 'never', 'mind', 'men') 2.0253578653656784e-05
+('help', 'around', 'house') 2.0253578653656784e-05
+('mind', 'men', 'think', 'dave') 2.0253578653656784e-05
+('hunter', 'lfg', 'vog') 2.0253578653656784e-05
+('fireteams', 'hunter', 'lfg', 'vog') 2.0253578653656784e-05
+('dont', 'know', 'happen') 1.9240809516753874e-05
+('dont', 'want', 'lose') 1.9228787031552596e-05
+('low', 'self', 'esteem') 1.9225137864842958e-05
+('year', 'old', 'guy') 1.9089234076400837e-05
+('dont', 'want', 'back') 1.827877374389434e-05
+('couldnt', 'think', 'anything') 1.827877374389434e-05
+('tardy', 'bacardi', 'msg') 1.827877374389434e-05
+('bacardi', 'msg', 'invite') 1.827877374389434e-05
+('tardy', 'bacardi', 'msg', 'invite') 1.827877374389434e-05
+('mfa', 'style', 'interview') 1.827877374389434e-05
+('feel', 'free', 'message') 1.827877374389434e-05
+('really', 'nice', 'even') 1.827877374389434e-05
+('limit', 'holdem', 'player') 1.827877374389434e-05
+('holdem', 'player', 'view') 1.827877374389434e-05
+('player', 'view', 'hand') 1.827877374389434e-05
+('view', 'hand', 'httpwwwhandconvertercomhands') 1.827877374389434e-05
+('hand', 'httpwwwhandconvertercomhands', 'reddit') 1.827877374389434e-05
+('httpwwwhandconvertercomhands', 'reddit', 'poker') 1.827877374389434e-05
+('star', 'limit', 'holdem', 'player') 1.827877374389434e-05
+('limit', 'holdem', 'player', 'view') 1.827877374389434e-05
+('holdem', 'player', 'view', 'hand') 1.827877374389434e-05
+('player', 'view', 'hand', 'httpwwwhandconvertercomhands') 1.827877374389434e-05
+('view', 'hand', 'httpwwwhandconvertercomhands', 'reddit') 1.827877374389434e-05
+('hand', 'httpwwwhandconvertercomhands', 'reddit', 'poker') 1.827877374389434e-05
+('httpwwwhandconvertercomhands', 'reddit', 'poker', 'converterhttpwwwhandconvertercom') 1.827877374389434e-05
+('late', 'early', 'would') 1.827877374389434e-05
+('early', 'would', 'say') 1.827877374389434e-05
+('would', 'say', 'hit') 1.827877374389434e-05
+('say', 'hit', 'nice') 1.827877374389434e-05
+('dave', 'late', 'early', 'would') 1.827877374389434e-05
+('late', 'early', 'would', 'say') 1.827877374389434e-05
+('early', 'would', 'say', 'hit') 1.827877374389434e-05
+('would', 'say', 'hit', 'nice') 1.827877374389434e-05
+('hunter', 'lfg', 'fresh') 1.827877374389434e-05
+('fireteams', 'hunter', 'lfg', 'fresh') 1.827877374389434e-05
+('doesnt', 'seem', 'like') 1.8238606234333777e-05
+('last', 'year', 'ive') 1.8238605545538216e-05
+('treat', 'like', 'shit') 1.8238605545538216e-05
+('play', 'video', 'game') 1.7840786244616914e-05
+('anymore', 'dont', 'know') 1.7679792100509856e-05
+('dont', 'think', 'ever') 1.7645304921871574e-05
+('dont', 'get', 'wrong') 1.6926009639512116e-05
+('thing', 'ive', 'ever') 1.6568009664742742e-05
+('random', 'number', 'generator') 1.6568009664742742e-05
+('dont', 'know', 'whether') 1.6520444306979965e-05
+('dont', 'know', 'much', 'longer') 1.6346178381487152e-05
+('dont', 'want', 'give') 1.6346178381487152e-05
+('anyone', 'else', 'feel', 'like') 1.6346178381487152e-05
+('would', 'get', 'better') 1.6346178381487152e-05
+('feel', 'like', 'cry') 1.6346178381487152e-05
+('love', 'best', 'friend') 1.6346178381487152e-05
+('say', 'ive', 'never') 1.6346178381487152e-05
+('cant', 'tell', 'anyone') 1.6346178381487152e-05
+('call', 'suicide', 'hotline') 1.6346178381487152e-05
+('last', 'time', 'saw') 1.6346178381487152e-05
+('ive', 'ever', 'felt') 1.6346178381487152e-05
+('hour', 'close', 'select') 1.6346178381487152e-05
+('older', 'male', 'customer') 1.6346178381487152e-05
+('mask', 'discomfort', 'mimic') 1.6346178381487152e-05
+('discomfort', 'mimic', 'pretend') 1.6346178381487152e-05
+('mimic', 'pretend', 'blow') 1.6346178381487152e-05
+('pretend', 'blow', 'kiss') 1.6346178381487152e-05
+('blow', 'kiss', 'back') 1.6346178381487152e-05
+('kiss', 'back', 'turn') 1.6346178381487152e-05
+('back', 'turn', 'away') 1.6346178381487152e-05
+('bit', 'flattered', 'really') 1.6346178381487152e-05
+('flattered', 'really', 'uncomfortable') 1.6346178381487152e-05
+('nice', 'even', 'give') 1.6346178381487152e-05
+('even', 'give', 'sister') 1.6346178381487152e-05
+('give', 'sister', 'old') 1.6346178381487152e-05
+('sister', 'old', 'fax') 1.6346178381487152e-05
+('old', 'fax', 'machine') 1.6346178381487152e-05
+('fax', 'machine', 'business') 1.6346178381487152e-05
+('machine', 'business', 'since') 1.6346178381487152e-05
+('business', 'since', 'saw') 1.6346178381487152e-05
+('since', 'saw', 'didnt') 1.6346178381487152e-05
+('saw', 'didnt', 'one') 1.6346178381487152e-05
+('didnt', 'one', 'also') 1.6346178381487152e-05
+('one', 'also', 'recommend') 1.6346178381487152e-05
+('also', 'recommend', 'handy') 1.6346178381487152e-05
+('recommend', 'handy', 'man') 1.6346178381487152e-05
+('handy', 'man', 'fix') 1.6346178381487152e-05
+('man', 'fix', 'plumbing') 1.6346178381487152e-05
+('fix', 'plumbing', 'issue') 1.6346178381487152e-05
+('plumbing', 'issue', 'new') 1.6346178381487152e-05
+('issue', 'new', 'house') 1.6346178381487152e-05
+('new', 'house', 'last') 1.6346178381487152e-05
+('house', 'last', 'year') 1.6346178381487152e-05
+('always', 'remind', 'let') 1.6346178381487152e-05
+('remind', 'let', 'know') 1.6346178381487152e-05
+('mask', 'discomfort', 'mimic', 'pretend') 1.6346178381487152e-05
+('discomfort', 'mimic', 'pretend', 'blow') 1.6346178381487152e-05
+('mimic', 'pretend', 'blow', 'kiss') 1.6346178381487152e-05
+('pretend', 'blow', 'kiss', 'back') 1.6346178381487152e-05
+('blow', 'kiss', 'back', 'turn') 1.6346178381487152e-05
+('kiss', 'back', 'turn', 'away') 1.6346178381487152e-05
+('back', 'turn', 'away', 'back') 1.6346178381487152e-05
+('though', 'bit', 'flattered', 'really') 1.6346178381487152e-05
+('bit', 'flattered', 'really', 'uncomfortable') 1.6346178381487152e-05
+('really', 'nice', 'even', 'give') 1.6346178381487152e-05
+('nice', 'even', 'give', 'sister') 1.6346178381487152e-05
+('even', 'give', 'sister', 'old') 1.6346178381487152e-05
+('give', 'sister', 'old', 'fax') 1.6346178381487152e-05
+('sister', 'old', 'fax', 'machine') 1.6346178381487152e-05
+('old', 'fax', 'machine', 'business') 1.6346178381487152e-05
+('fax', 'machine', 'business', 'since') 1.6346178381487152e-05
+('machine', 'business', 'since', 'saw') 1.6346178381487152e-05
+('business', 'since', 'saw', 'didnt') 1.6346178381487152e-05
+('since', 'saw', 'didnt', 'one') 1.6346178381487152e-05
+('saw', 'didnt', 'one', 'also') 1.6346178381487152e-05
+('didnt', 'one', 'also', 'recommend') 1.6346178381487152e-05
+('one', 'also', 'recommend', 'handy') 1.6346178381487152e-05
+('also', 'recommend', 'handy', 'man') 1.6346178381487152e-05
+('recommend', 'handy', 'man', 'fix') 1.6346178381487152e-05
+('handy', 'man', 'fix', 'plumbing') 1.6346178381487152e-05
+('man', 'fix', 'plumbing', 'issue') 1.6346178381487152e-05
+('fix', 'plumbing', 'issue', 'new') 1.6346178381487152e-05
+('plumbing', 'issue', 'new', 'house') 1.6346178381487152e-05
+('issue', 'new', 'house', 'last') 1.6346178381487152e-05
+('new', 'house', 'last', 'year') 1.6346178381487152e-05
+('always', 'remind', 'let', 'know') 1.6346178381487152e-05
+('remind', 'let', 'know', 'need') 1.6346178381487152e-05
+('nice', 'man', 'dave') 1.6346178381487152e-05
+('man', 'dave', 'come') 1.6346178381487152e-05
+('dave', 'come', 'sometimes') 1.6346178381487152e-05
+('convention', 'halloween', 'etcanyway') 1.6346178381487152e-05
+('halloween', 'etcanyway', 'vendor') 1.6346178381487152e-05
+('etcanyway', 'vendor', 'convention') 1.6346178381487152e-05
+('one', 'point', 'look') 1.6346178381487152e-05
+('point', 'look', 'side') 1.6346178381487152e-05
+('booth', 'saw', 'dave') 1.6346178381487152e-05
+('saw', 'dave', 'wave') 1.6346178381487152e-05
+('dave', 'wave', 'surprise') 1.6346178381487152e-05
+('wave', 'back', 'shock') 1.6346178381487152e-05
+('back', 'shock', 'make') 1.6346178381487152e-05
+('shock', 'make', 'little') 1.6346178381487152e-05
+('make', 'little', 'uncomfortable') 1.6346178381487152e-05
+('little', 'uncomfortable', 'wave') 1.6346178381487152e-05
+('uncomfortable', 'wave', 'touch') 1.6346178381487152e-05
+('lip', 'mouth', 'blow') 1.6346178381487152e-05
+('mouth', 'blow', 'kiss') 1.6346178381487152e-05
+('blow', 'kiss', 'mask') 1.6346178381487152e-05
+('kiss', 'mask', 'discomfort') 1.6346178381487152e-05
+('moment', 'later', 'dave') 1.6346178381487152e-05
+('later', 'dave', 'come') 1.6346178381487152e-05
+('dave', 'come', 'start') 1.6346178381487152e-05
+('pretty', 'nervousshy', 'around') 1.6346178381487152e-05
+('nervousshy', 'around', 'people') 1.6346178381487152e-05
+('around', 'people', 'especially') 1.6346178381487152e-05
+('people', 'especially', 'guy') 1.6346178381487152e-05
+('especially', 'guy', 'try') 1.6346178381487152e-05
+('guy', 'try', 'brush') 1.6346178381487152e-05
+('chat', 'bit', 'business') 1.6346178381487152e-05
+('bit', 'business', 'need') 1.6346178381487152e-05
+('business', 'need', 'costume') 1.6346178381487152e-05
+('need', 'costume', 'afterwards') 1.6346178381487152e-05
+('costume', 'afterwards', 'remind') 1.6346178381487152e-05
+('afterwards', 'remind', 'ever') 1.6346178381487152e-05
+('remind', 'ever', 'need') 1.6346178381487152e-05
+('ever', 'need', 'help') 1.6346178381487152e-05
+('need', 'help', 'around') 1.6346178381487152e-05
+('around', 'house', 'plumb') 1.6346178381487152e-05
+('house', 'plumb', 'call') 1.6346178381487152e-05
+('plumb', 'call', 'introduce') 1.6346178381487152e-05
+('call', 'introduce', 'youngest') 1.6346178381487152e-05
+('little', 'close', 'make') 1.6346178381487152e-05
+('nice', 'man', 'dave', 'come') 1.6346178381487152e-05
+('man', 'dave', 'come', 'sometimes') 1.6346178381487152e-05
+('dave', 'come', 'sometimes', 'teenage') 1.6346178381487152e-05
+('costume', 'convention', 'halloween', 'etcanyway') 1.6346178381487152e-05
+('convention', 'halloween', 'etcanyway', 'vendor') 1.6346178381487152e-05
+('halloween', 'etcanyway', 'vendor', 'convention') 1.6346178381487152e-05
+('one', 'point', 'look', 'side') 1.6346178381487152e-05
+('point', 'look', 'side', 'booth') 1.6346178381487152e-05
+('side', 'booth', 'saw', 'dave') 1.6346178381487152e-05
+('booth', 'saw', 'dave', 'wave') 1.6346178381487152e-05
+('saw', 'dave', 'wave', 'surprise') 1.6346178381487152e-05
+('dave', 'wave', 'surprise', 'see') 1.6346178381487152e-05
+('smile', 'wave', 'back', 'shock') 1.6346178381487152e-05
+('wave', 'back', 'shock', 'make') 1.6346178381487152e-05
+('back', 'shock', 'make', 'little') 1.6346178381487152e-05
+('shock', 'make', 'little', 'uncomfortable') 1.6346178381487152e-05
+('make', 'little', 'uncomfortable', 'wave') 1.6346178381487152e-05
+('little', 'uncomfortable', 'wave', 'touch') 1.6346178381487152e-05
+('uncomfortable', 'wave', 'touch', 'lip') 1.6346178381487152e-05
+('touch', 'lip', 'mouth', 'blow') 1.6346178381487152e-05
+('lip', 'mouth', 'blow', 'kiss') 1.6346178381487152e-05
+('mouth', 'blow', 'kiss', 'mask') 1.6346178381487152e-05
+('blow', 'kiss', 'mask', 'discomfort') 1.6346178381487152e-05
+('customer', 'moment', 'later', 'dave') 1.6346178381487152e-05
+('moment', 'later', 'dave', 'come') 1.6346178381487152e-05
+('later', 'dave', 'come', 'start') 1.6346178381487152e-05
+('dave', 'come', 'start', 'conversation') 1.6346178381487152e-05
+('come', 'start', 'conversation', 'hey') 1.6346178381487152e-05
+('pretty', 'nervousshy', 'around', 'people') 1.6346178381487152e-05
+('nervousshy', 'around', 'people', 'especially') 1.6346178381487152e-05
+('around', 'people', 'especially', 'guy') 1.6346178381487152e-05
+('people', 'especially', 'guy', 'try') 1.6346178381487152e-05
+('especially', 'guy', 'try', 'brush') 1.6346178381487152e-05
+('guy', 'try', 'brush', 'change') 1.6346178381487152e-05
+('subject', 'chat', 'bit', 'business') 1.6346178381487152e-05
+('chat', 'bit', 'business', 'need') 1.6346178381487152e-05
+('bit', 'business', 'need', 'costume') 1.6346178381487152e-05
+('business', 'need', 'costume', 'afterwards') 1.6346178381487152e-05
+('need', 'costume', 'afterwards', 'remind') 1.6346178381487152e-05
+('costume', 'afterwards', 'remind', 'ever') 1.6346178381487152e-05
+('afterwards', 'remind', 'ever', 'need') 1.6346178381487152e-05
+('remind', 'ever', 'need', 'help') 1.6346178381487152e-05
+('ever', 'need', 'help', 'around') 1.6346178381487152e-05
+('need', 'help', 'around', 'house') 1.6346178381487152e-05
+('help', 'around', 'house', 'plumb') 1.6346178381487152e-05
+('around', 'house', 'plumb', 'call') 1.6346178381487152e-05
+('house', 'plumb', 'call', 'introduce') 1.6346178381487152e-05
+('plumb', 'call', 'introduce', 'youngest') 1.6346178381487152e-05
+('call', 'introduce', 'youngest', 'daughter') 1.6346178381487152e-05
+('stand', 'little', 'close', 'make') 1.6346178381487152e-05
+('little', 'close', 'make', 'lot') 1.6346178381487152e-05
+('socially', 'anxious', 'ive') 1.6346178381487152e-05
+('poor', 'social', 'skill') 1.6346178381487152e-05
+('female', 'socially', 'anxious', 'ive') 1.6346178381487152e-05
+('mutual', 'friend', 'invite') 1.6346178381487152e-05
+('hey', 'year', 'old', 'female') 1.6346178381487152e-05
+('animalcrossing', 'day', 'life') 1.6346178381487152e-05
+('animalcrossing', 'day', 'life', 'mayor') 1.6346178381487152e-05
+('get', 'worse', 'worse') 1.6164916589414526e-05
+('anymore', 'dont', 'want') 1.6164916589414526e-05
+('every', 'time', 'get') 1.6164916589414526e-05
+('want', 'dont', 'want') 1.6164916589414526e-05
+('really', 'dont', 'want') 1.6133787823022886e-05
+('life', 'feel', 'like') 1.56693644014999e-05
+('ive', 'always', 'want') 1.56693644014999e-05
+('dont', 'know', 'much') 1.5374200475915205e-05
+('include', 'ship', 'tax') 1.5018316641665376e-05
+('price', 'include', 'ship', 'tax') 1.5018316641665376e-05
+('know', 'much', 'longer') 1.493398638428206e-05
+('feel', 'like', 'end') 1.493398638428206e-05
+('try', 'make', 'feel') 1.493398638428206e-05
+('feel', 'like', 'nothing') 1.493398638428206e-05
+('anyone', 'else', 'find') 1.493398638428206e-05
+('hey', 'year', 'old') 1.493398638428206e-05
+('dont', 'want', 'leave') 1.4841152730027575e-05
+('help', 'feel', 'like') 1.4841152730027575e-05
+('modular', 'atx', 'power') 1.4841152730027575e-05
+('feel', 'like', 'dont') 1.4701040211958414e-05
+('look', 'new', 'friend') 1.4682305713490058e-05
+('thing', 'get', 'better') 1.4682305713490058e-05
+('right', 'dont', 'know') 1.4682305713490058e-05
+('long', 'story', 'short') 1.4659197960579373e-05
+('last', 'couple', 'day') 1.4459317890428104e-05
+('almost', 'two', 'year') 1.4459317890428104e-05
+('ive', 'try', 'get') 1.4459317890428104e-05
+('iama', 'year', 'old') 1.4459317890428104e-05
+('dont', 'know', 'maybe') 1.4459317890428104e-05
+('two', 'month', 'ago') 1.4459317890428104e-05
+('like', 'feel', 'like') 1.4459317890428104e-05
+('back', 'dont', 'know') 1.4459317890428104e-05
+('friend', 'would', 'like') 1.4459317890428104e-05
+('really', 'dont', 'think') 1.4459317890428104e-05
+('suicidewatch', 'dont', 'want') 1.4459317890428104e-05
+('year', 'old', 'sister') 1.4459317890428104e-05
+('like', 'someone', 'like') 1.4459317890428104e-05
+('past', 'couple', 'year') 1.4459317890428104e-05
+('power', 'supplyhttppcpartpickercompartcorsair', 'power') 1.4459317890428104e-05
+('supplyhttppcpartpickercompartcorsair', 'power', 'supply') 1.4459317890428104e-05
+('power', 'supplyhttppcpartpickercompartcorsair', 'power', 'supply') 1.4459317890428104e-05
+('please', 'help', 'dont') 1.4459317890428104e-05
+('every', 'time', 'start') 1.4459317890428104e-05
+('family', 'member', 'come') 1.4459317890428104e-05
+('number', 'hour', 'close') 1.4459317890428104e-05
+('close', 'select', 'number') 1.4459317890428104e-05
+('select', 'number', 'random') 1.4459317890428104e-05
+('number', 'random', 'number') 1.4459317890428104e-05
+('number', 'hour', 'close', 'select') 1.4459317890428104e-05
+('hour', 'close', 'select', 'number') 1.4459317890428104e-05
+('close', 'select', 'number', 'random') 1.4459317890428104e-05
+('select', 'number', 'random', 'number') 1.4459317890428104e-05
+('number', 'random', 'number', 'generator') 1.4459317890428104e-05
+('edit', 'thank', 'participate') 1.4459317890428104e-05
+('thank', 'participate', 'giveaway') 1.4459317890428104e-05
+('participate', 'giveaway', 'end') 1.4459317890428104e-05
+('edit', 'thank', 'participate', 'giveaway') 1.4459317890428104e-05
+('thank', 'participate', 'giveaway', 'end') 1.4459317890428104e-05
+('depression', 'anyone', 'else') 1.4459317890428104e-05
+('ive', 'never', 'date') 1.4459317890428104e-05
+('anxiety', 'depression', 'poor') 1.4459317890428104e-05
+('depression', 'poor', 'social') 1.4459317890428104e-05
+('social', 'anxiety', 'depression', 'poor') 1.4459317890428104e-05
+('anxiety', 'depression', 'poor', 'social') 1.4459317890428104e-05
+('depression', 'poor', 'social', 'skill') 1.4459317890428104e-05
+('time', 'much', 'like') 1.4459317890428104e-05
+('something', 'ive', 'gotten') 1.4459317890428104e-05
+('get', 'back', 'say') 1.4459317890428104e-05
+('never', 'love', 'anyone') 1.4459317890428104e-05
+('lfg', 'vog', 'fresh') 1.4459317890428104e-05
+('old', 'female', 'kind') 1.4459317890428104e-05
+('female', 'kind', 'punctual') 1.4459317890428104e-05
+('kind', 'punctual', 'dedicate') 1.4459317890428104e-05
+('punctual', 'dedicate', 'energetic') 1.4459317890428104e-05
+('dedicate', 'energetic', 'patient') 1.4459317890428104e-05
+('energetic', 'patient', 'loving') 1.4459317890428104e-05
+('patient', 'loving', 'well') 1.4459317890428104e-05
+('loving', 'well', 'organize') 1.4459317890428104e-05
+('well', 'organize', 'individual') 1.4459317890428104e-05
+('year', 'old', 'female', 'kind') 1.4459317890428104e-05
+('old', 'female', 'kind', 'punctual') 1.4459317890428104e-05
+('female', 'kind', 'punctual', 'dedicate') 1.4459317890428104e-05
+('kind', 'punctual', 'dedicate', 'energetic') 1.4459317890428104e-05
+('punctual', 'dedicate', 'energetic', 'patient') 1.4459317890428104e-05
+('dedicate', 'energetic', 'patient', 'loving') 1.4459317890428104e-05
+('energetic', 'patient', 'loving', 'well') 1.4459317890428104e-05
+('patient', 'loving', 'well', 'organize') 1.4459317890428104e-05
+('loving', 'well', 'organize', 'individual') 1.4459317890428104e-05
+('still', 'dont', 'know') 1.442159020871664e-05
+('wonder', 'anyone', 'else') 1.3904653181299953e-05
+('doesnt', 'make', 'sense') 1.3904653181299953e-05
+('dont', 'want', 'die') 1.3904653181299953e-05
+('dont', 'want', 'anything') 1.3483979402852243e-05
+('dont', 'know', 'one') 1.3339152340590818e-05
+('work', 'part', 'time') 1.3339152340590818e-05
+('feel', 'like', 'give') 1.3339152340590818e-05
+('almost', 'year', 'old') 1.3339152340590818e-05
+('dont', 'care', 'anymore') 1.3339152340590818e-05
+('depression', 'dont', 'know') 1.3339152340590818e-05
+('let', 'know', 'need') 1.3339152340590818e-05
+('move', 'back', 'home') 1.3233978566919113e-05
+('really', 'want', 'know') 1.3233978566919113e-05
+('mental', 'health', 'problem') 1.3233978566919113e-05
+('make', 'feel', 'worse') 1.3233978566919113e-05
+('feel', 'like', 'could') 1.3199929805769684e-05
+('dont', 'know', 'ill') 1.3199929805769684e-05
+('would', 'much', 'appreciate') 1.2904155973040392e-05
+('take', 'time', 'read') 1.2755130291192309e-05
+('need', 'help', 'find') 1.2647034334564205e-05
+('make', 'big', 'deal') 1.2639332921026922e-05
+('talk', 'dont', 'know') 1.2622361017056595e-05
+('dont', 'know', 'way') 1.2622361017056595e-05
+('sorry', 'long', 'post') 1.2622361017056595e-05
+('make', 'eye', 'contact') 1.2622361017056595e-05
+('break', 'month', 'ago') 1.2622361017056595e-05
+('casualiama', 'year', 'old') 1.2622361017056595e-05
+('year', 'dont', 'know') 1.2622361017056595e-05
+('always', 'feel', 'like') 1.2622361017056595e-05
+('askreddit', 'whats', 'worst') 1.2622361017056595e-05
+('one', 'lfm', 'vog') 1.2622361017056595e-05
+('lfm', 'vog', 'fresh') 1.2622361017056595e-05
+('xbox', 'one', 'lfm', 'vog') 1.2622361017056595e-05
+('one', 'lfm', 'tardy') 1.2622361017056595e-05
+('lfm', 'tardy', 'bacardi') 1.2622361017056595e-05
+('xbox', 'one', 'lfm', 'tardy') 1.2622361017056595e-05
+('one', 'lfm', 'tardy', 'bacardi') 1.2622361017056595e-05
+('dont', 'want', 'want') 1.2622361017056595e-05
+('people', 'dont', 'like') 1.2622361017056595e-05
+('dont', 'think', 'anything') 1.2622361017056595e-05
+('atx', 'power', 'supplyhttppcpartpickercompartcorsair') 1.2622361017056595e-05
+('atx', 'power', 'supplyhttppcpartpickercompartcorsair', 'power') 1.2622361017056595e-05
+('remember', 'last', 'time') 1.2622361017056595e-05
+('thing', 'make', 'feel') 1.2622361017056595e-05
+('spend', 'rest', 'life') 1.2622361017056595e-05
+('cant', 'help', 'wonder') 1.2622361017056595e-05
+('dont', 'want', 'burden') 1.2622361017056595e-05
+('feel', 'like', 'absolute') 1.2622361017056595e-05
+('die', 'dont', 'want') 1.2622361017056595e-05
+('hero', 'bet', 'call') 1.2622361017056595e-05
+('winner', 'good', 'luck') 1.2622361017056595e-05
+('clubteen', 'awkwardnsfw', 'question') 1.2622361017056595e-05
+('awkwardnsfw', 'question', 'thread') 1.2622361017056595e-05
+('clubteen', 'awkwardnsfw', 'question', 'thread') 1.2622361017056595e-05
+('question', 'thread', 'post') 1.2622361017056595e-05
+('core', 'processorhttppcpartpickercompartamd', 'cpu') 1.2622361017056595e-05
+('people', 'say', 'attractive') 1.2622361017056595e-05
+('really', 'uncomfortable', 'pretty') 1.2622361017056595e-05
+('uncomfortable', 'pretty', 'nervousshy') 1.2622361017056595e-05
+('eye', 'contact', 'could') 1.2622361017056595e-05
