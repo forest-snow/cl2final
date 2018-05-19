@@ -7,6 +7,10 @@ Our project has 3 components: n-gram model, topic model, and RNN.
 - [PyTorch](https://github.com/pytorch/pytorch)
 
 ## Run
+### N-gram Model
+To run the n-gram model, run `python KL_div.py`. You may need to change:
+* path in KL_div.py: where the reddit dataset is located
+
 ### Topic Model
 To run the topic model, run `python slda.py`. You may need to change:
 * pathfile in extract.py: where the reddit dataset is located
