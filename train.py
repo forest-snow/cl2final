@@ -162,7 +162,6 @@ def extract_vocab(vocab_file, vocab_size=100):
 
 if __name__ == '__main__':
 	path = '../umd_reddit_suicidewatch_dataset/'
-	vocab_file = '../umd_reddit_suicidewatch_dataset/key_words'
 	pickle_file = '../umd_reddit_suicidewatch_dataset/post_topics'
 	model_file = '../umd_reddit_suicidewatch_dataset/rnn_model_1'
 
